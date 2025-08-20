@@ -1,0 +1,4439 @@
+[
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Collector's Cage",
+    "keywords": [
+      "Hideaway"
+    ],
+    "originalText": "Hideaway 5 (When this artifact enters the battlefield, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.)\n{1}, {T}: Put a +1/+1 counter on target creature you control. Then if you control three or more creatures with different powers, you may play the exiled card without paying its mana cost.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Collector's Cage's last ability looks at the creatures you control as it resolves to determine if you can play the exiled card. For example, if you control a 4/5 creature, a 1/1 creature, and a 2/1 creature, there are three different powers among creatures you control."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If you cast a spell \"without paying its mana cost,\" you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads \"[This permanent] enters the battlefield tapped,\" and they now have hideaway 4."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You choose whether to play the exiled card as Collector's Cage's last ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to play it later in the turn. Timing restrictions based on the card's types are ignored. However, you can never play lands on other players' turns."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{W}",
+    "manaValue": 2,
+    "name": "Grand Abolisher",
+    "originalText": "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't affect triggered abilities or static abilities."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't stop your opponents from activating abilities of artifact, creature, or entorchantment cards in zones other than the battlefield (like cycling abilities, for example)."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{W}",
+    "manaValue": 3,
+    "name": "Oltec Matterweaver",
+    "originalText": "Whenever you cast a creature spell, choose one —\n• Create a 1/1 colorless Gnome artifact creature token.\n• Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don’t have a mana cost unless they’re copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Oltec Matterweaver’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Rest in Peace",
+    "originalText": "When Rest in Peace enters the battlefield, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2018-03-16",
+        "text": "If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "If a card is discarded while Rest in Peace is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "While Rest in Peace is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Esoteric Duplicator",
+    "originalText": "Whenever you sacrifice Esoteric Duplicator or another artifact, you may pay {2}. If you do, at the beginning of the next end step, create a token that's a copy of that artifact.\n{2}, Sacrifice Esoteric Duplicator: Draw a card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied artifact will trigger when the token enters the battlefield. Any “as [this artifact] enters the battlefield” or “[this artifact] enters the battlefield with” abilities of the copied artifact will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was copying something else when it was last on the battlefield, then the token enters the battlefield as whatever that artifact copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The token copies exactly what was printed on the original artifact and nothing else (unless that artifact was copying something else or was a token; see below). It doesn’t copy whether that artifact was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Simulacrum Synthesizer",
+    "keywords": [
+      "Scry"
+    ],
+    "originalText": "When Simulacrum Synthesizer enters the battlefield, scry 2.\nWhenever another artifact with mana value 3 or greater enters the battlefield under your control, create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of an artifact on the battlefield includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The ability of the Construct token created by Simulacrum Synthesizer's last ability does count the Construct itself, so it'll be at least 1/1."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Worldwalker Helm",
+    "keywords": [
+      "Explore"
+    ],
+    "originalText": "If you would create one or more artifact tokens, instead create those tokens plus an additional Map token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")\n{1}{U}, {T}: Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any \"as [this permanent] enters the battlefield\" or \"[this permanent] enters the battlefield with\" abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don't have a mana cost unless they're copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The additional Map token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or \"Exile that token at end of combat\") applies to both the original tokens and the Map."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token created by Worldwaker Helm's last ability copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that token is copying something else; see below). It doesn't copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Worldwaker Helm's first ability to apply."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Greed's Gambit",
+    "originalText": "When Greed's Gambit enters the battlefield, you draw three cards, gain 6 life, and create three 2/1 black Bat creature tokens with flying.\nAt the beginning of your end step, you discard a card, lose 2 life, and sacrifice a creature.\nWhen Greed's Gambit leaves the battlefield, you discard three cards, lose 6 life, and sacrifice three creatures.",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}{B}",
+    "manaValue": 5,
+    "name": "Harvester of Misery",
+    "keywords": [
+      "Menace"
+    ],
+    "originalText": "Menace\nWhen Harvester of Misery enters the battlefield, other creatures get -2/-2 until end of turn.\n{1}{B}, Discard Harvester of Misery: Target creature gets -2/-2 until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Harvester of Misery's second ability affects only other creatures that are on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn and noncreature permanents that become creatures later in the turn won't get -2/-2."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Hostile Investigator",
+    "keywords": [
+      "Investigate"
+    ],
+    "originalText": "When Hostile Investigator enters the battlefield, target opponent discards a card.\nWhenever one or more players discard one or more cards, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")",
+    "rarity": "mythic",
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Generous Plunderer",
+    "keywords": [
+      "Menace",
+      "Treasure"
+    ],
+    "originalText": "Menace\nAt the beginning of your upkeep, you may create a Treasure token. When you do, target opponent creates a tapped Treasure token.\nWhenever Generous Plunderer attacks, it deals damage to defending player equal to the number of artifacts they control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "You don’t choose a target for Generous Plunderer’s first triggered ability at the time it triggers. Rather, a second “reflexive” ability triggers when you create a Treasure token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Notably, the triggered ability isn’t a crime, but the reflexive triggered ability potentially is."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Legion Extruder",
+    "originalText": "When Legion Extruder enters the battlefield, it deals 2 damage to any target.\n{2}, {T}, Sacrifice another artifact: Create a 3/3 colorless Golem artifact creature token.",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{R}{R}",
+    "manaValue": 5,
+    "name": "Memory Vessel",
+    "originalText": "{T}, Exile Memory Vessel: Each player exiles the top seven cards of their library. Until your next turn, players may play cards they exiled this way, and they can't play cards from their hand. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Memory Vessel has received a minor update to its Oracle text to clarify that players can play only cards they exiled from their library during the effect of the activated ability, not the Memory Vessel that was exiled to activate the ability."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players may still play cards from zones other than their hand if something would allow them to do so."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players pay all costs and follow all normal timing rules for cards played from exile with Memory Vessel's ability. For example, if an exiled card is a land card, its owner may play it only during their main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Molten Duplication",
+    "originalText": "Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied permanent will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent has {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{R}",
+    "manaValue": 5,
+    "name": "Territory Forge",
+    "originalText": "When Territory Forge enters the battlefield, if you cast it, exile target artifact or land.\nTerritory Forge has all activated abilities of the exiled card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If an activated ability of the exiled card references the card it's printed on by name, treat Territory Forge's version of that ability as though it referenced Territory Forge instead. For example, if the exiled card is Bandit's Haul (which has the ability \"{2}, {T}, Remove two loot counters from Bandit's Haul: Draw a card.), you would treat Territory Forge's version of the ability as though it said \"{2}, {T}, Remove two loot counters from Territory Forge: Draw a card.\""
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Territory Forge gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and may have colons in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Ancient Cornucopia",
+    "originalText": "Whenever you cast a spell that's one or more colors, you may gain 1 life for each of that spell's colors. Do this only once each turn.\n{T}: Add one mana of any color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability counts the number of colors the spell has (from one to five), not how many colored mana symbols there are in its mana cost or how many colors of mana you spent."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered. If that spell is countered, use its last known information to determine what colors it was."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once you choose to gain life using Ancient Cornucopia’s triggered ability, that ability won’t trigger again that turn."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}{G}",
+    "manaValue": 4,
+    "name": "Bristlebud Farmer",
+    "keywords": [
+      "Food",
+      "Mill",
+      "Trample"
+    ],
+    "originalText": "Trample\nWhen Bristlebud Farmer enters the battlefield, create two Food tokens. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever Bristlebud Farmer attacks, you may sacrifice a Food. If you do, mill three cards. You may put a permanent card from among them into your hand.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with \"Sacrifice a Food\" in its cost)."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{G}",
+    "manaValue": 4,
+    "name": "Omenpath Journey",
+    "originalText": "When Omenpath Journey enters the battlefield, search your library for up to five land cards that have different names, exile them, then shuffle.\nAt the beginning of your end step, choose a card at random exiled with Omenpath Journey and put it onto the battlefield tapped.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "While in your library, a double-faced card has only the name of its front face. It’s not possible to reveal two of the same double-faced card this way."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may search your library for only one land card and exile it, if you like."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Sandstorm Salvager",
+    "originalText": "When Sandstorm Salvager enters the battlefield, create a 3/3 colorless Golem artifact creature token.\n{2}, {T}: Put a +1/+1 counter on each creature token you control. They gain trample until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "In the rare case where +1/+1 counters can’t be put on one or more creature tokens you control, those creature tokens still gain trample until end of turn."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 7,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}{G}{G}",
+    "manaValue": 7,
+    "name": "Vaultborn Tyrant",
+    "keywords": [
+      "Trample"
+    ],
+    "originalText": "Trample\nWhenever Vaultborn Tyrant or another creature with power 4 or greater enters the battlefield under your control, you gain 3 life and draw a card.\nWhen Vaultborn Tyrant dies, if it's not a token, create a token that's a copy of it, except it's an artifact in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exception, the token copies exactly what is printed on Vaultborn Tyrant and nothing else (unless Vaultborn Tyrant was copying something else; see below). It doesn’t copy whether Vaultborn Tyrant was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Vaultborn Tyrant was copying something else when it was last on the battlefield but somehow still had its last ability, then the token enters the battlefield as whatever Vaultborn Tyrant copied, with the listed exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If one or more static abilities that apply to a creature entering the battlefield change its power, those abilities are considered when determining whether or not Vaultborn Tyrant’s second ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once Vaultborn Tyrant’s second ability has triggered, lowering the power of the creature or removing it from the battlefield won’t stop you from gaining life and drawing a card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "When the token copy of Vaultborn Tyrant enters the battlefield, its second ability will trigger."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{G}{U}{R}",
+    "manaValue": 3,
+    "name": "Loot, the Key to Everything",
+    "keywords": [
+      "Ward"
+    ],
+    "originalText": "Ward {1}\nAt the beginning of your upkeep, exile the top X cards of your library, where X is the number of card types among other nonland permanents you control. You may play those cards this turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Lands are disregarded when calculating the value of X. For example, if you control an artifact land but no other artifacts, artifact won't count toward the value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The card types that could appear among your nonland permanents are artifact, battle, creature, enchantment, kindred, and planeswalker."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The value of X is determined as Loot's last ability resolves."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You pay all costs and follow all normal timing rules for cards played from exile with Loot's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{B}",
+    "manaValue": 2,
+    "name": "Pest Control",
+    "keywords": [
+      "Cycling"
+    ],
+    "originalText": "Destroy all nonland permanents with mana value 1 or less.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of a permanent includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The mana value of a token that isn’t a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 1,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}",
+    "manaValue": 1,
+    "name": "Lost Jitte",
+    "keywords": [
+      "Equip"
+    ],
+    "originalText": "Whenever equipped creature deals combat damage, put a charge counter on Lost Jitte.\nRemove a charge counter from Lost Jitte: Choose one —\n• Untap target land.\n• Target creature can't block this turn.\n• Put a +1/+1 counter on equipped creature.\nEquip {1}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Choosing a creature that’s already been declared as a blocker as the target of the second mode of the activated ability won’t cause that creature to stop blocking."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may target a land that is already untapped with the first mode of Lost Jitte’s activated ability."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Lotus Ring",
+    "keywords": [
+      "Equip",
+      "Indestructible"
+    ],
+    "originalText": "Indestructible\nEquipped creature gets +3/+3 and has vigilance and \"{T}, Sacrifice this creature: Add three mana of any one color.\"\nEquip {3}",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 6,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{6}",
+    "manaValue": 6,
+    "name": "Nexus of Becoming",
+    "originalText": "At the beginning of combat on your turn, draw a card. Then you may exile an artifact or creature card from your hand. If you do, create a token that's a copy of the exiled card, except it's a 3/3 Golem artifact creature in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied card will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied card will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what’s printed on the exiled card and nothing else."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the exiled card has {X} in its mana cost, X is 0."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Sword of Wealth and Power",
+    "keywords": [
+      "Equip",
+      "Treasure"
+    ],
+    "originalText": "Equipped creature gets +2/+2 and has protection from instants and from sorceries.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nEquip {2}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Protection from instants and from sorceries means that the equipped creature can’t be the target of instant spells, sorcery spells, or abilities from instant or sorcery cards (such as an ability of an instant card that triggers when that card is cycled), and all damage that an instant or sorcery spell or card would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy created by Sword of Wealth and Power’s delayed triggered ability will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy made by Sword of Wealth and Power’s delayed triggered ability is created on the stack, so it’s not “cast.”"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "predh": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}",
+    "manaValue": 2,
+    "name": "Torpor Orb",
+    "originalText": "Creatures entering the battlefield don't cause abilities to trigger.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Abilities that apply \"as [this creature] enters the battlefield,\" including many abilities that ask a creature's controller to choose a color or creature type, are unaffected."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Torpor Orb and a creature enter the battlefield at the same time, that creature entering the battlefield won't cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Look at the permanent as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger. For example, if you control March of the Machines, which says, in part, \"Each noncreature artifact is an artifact creature,\" each artifact will be a creature at the time it enters the battlefield and will not cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Replacement effects are unaffected by Torpor Orb's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it will still receive a +1/+1 counter."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The trigger event doesn't have to specify \"creatures\" entering the battlefield. For example, Captain Storm, Cosmium Raider from the Lost Caverns of Ixalan release has an ability that says \"Whenever an artifact enters the battlefield under your control, put a +1/+1 counter on target Pirate you control.\" If an artifact creature enters the battlefield under your control, that ability won't trigger. If a noncreature artifact enters the battlefield under your control, the ability will trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Torpor Orb stops a creature's own enters-the-battlefield triggered abilities as well as other triggered abilities that would trigger when a creature enters the battlefield."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Triggered abilities use the word \"when,\" \"whenever,\" or \"at.\" They're often written as \"[Trigger condition], [effect].\" Some keyword abilities are triggered abilities and will have \"when,\" \"whenever,\" or \"at the beginning of\" in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}",
+    "manaValue": 5,
+    "name": "Transmutation Font",
+    "keywords": [
+      "Food"
+    ],
+    "originalText": "{T}: Create your choice of a Blood token, a Clue token, or a Food token.\n{3}, {T}, Sacrifice three artifact tokens with different names: Search your library for an artifact card, put it onto the battlefield, then shuffle. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "Some triggered abilities trigger \"whenever you sacrifice a Blood token.\" These abilities trigger regardless of why you sacrificed that Blood token."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "You can't sacrifice a Blood token to pay multiple costs."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Fomori Vault",
+    "originalText": "{T}: Add {C}.\n{3}, {T}, Discard a card: Look at the top X cards of your library, where X is the number of artifacts you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Tarnation Vista",
+    "originalText": "Tarnation Vista enters the battlefield tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Tarnation Vista’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The five colors are white, blue, black, red, and green, and as such, Tarnation Vista’s last ability can produce five mana at most."
+      }
+    ],
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Collector's Cage",
+    "keywords": [
+      "Hideaway"
+    ],
+    "originalText": "Hideaway 5\n{1}, {T}: Put a +1/+1 counter on target creature you control. Then if you control three or more creatures with different powers, you may play the exiled card without paying its mana cost.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Collector's Cage's last ability looks at the creatures you control as it resolves to determine if you can play the exiled card. For example, if you control a 4/5 creature, a 1/1 creature, and a 2/1 creature, there are three different powers among creatures you control."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If you cast a spell \"without paying its mana cost,\" you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads \"[This permanent] enters the battlefield tapped,\" and they now have hideaway 4."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You choose whether to play the exiled card as Collector's Cage's last ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to play it later in the turn. Timing restrictions based on the card's types are ignored. However, you can never play lands on other players' turns."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{W}",
+    "manaValue": 2,
+    "name": "Grand Abolisher",
+    "originalText": "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't affect triggered abilities or static abilities."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't stop your opponents from activating abilities of artifact, creature, or entorchantment cards in zones other than the battlefield (like cycling abilities, for example)."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{W}",
+    "manaValue": 3,
+    "name": "Oltec Matterweaver",
+    "originalText": "Whenever you cast a creature spell, choose one —\n• Create a 1/1 colorless Gnome artifact creature token.\n• Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don’t have a mana cost unless they’re copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Oltec Matterweaver’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Rest in Peace",
+    "originalText": "When Rest in Peace enters the battlefield, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2018-03-16",
+        "text": "If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "If a card is discarded while Rest in Peace is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "While Rest in Peace is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Esoteric Duplicator",
+    "originalText": "Whenever you sacrifice Esoteric Duplicator or another artifact, you may pay {2}. If you do, at the beginning of the next end step, create a token that's a copy of that artifact.\n{2}, Sacrifice Esoteric Duplicator: Draw a card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied artifact will trigger when the token enters the battlefield. Any “as [this artifact] enters the battlefield” or “[this artifact] enters the battlefield with” abilities of the copied artifact will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was copying something else when it was last on the battlefield, then the token enters the battlefield as whatever that artifact copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The token copies exactly what was printed on the original artifact and nothing else (unless that artifact was copying something else or was a token; see below). It doesn’t copy whether that artifact was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Simulacrum Synthesizer",
+    "keywords": [
+      "Scry"
+    ],
+    "originalText": "When Simulacrum Synthesizer enters the battlefield, scry 2.\nWhenever another artifact with mana value 3 or greater enters the battlefield under your control, create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of an artifact on the battlefield includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The ability of the Construct token created by Simulacrum Synthesizer's last ability does count the Construct itself, so it'll be at least 1/1."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Worldwalker Helm",
+    "keywords": [
+      "Explore"
+    ],
+    "originalText": "If you would create one or more artifact tokens, instead create those tokens plus an additional Map token.\n{1}{U}, {T}: Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any \"as [this permanent] enters the battlefield\" or \"[this permanent] enters the battlefield with\" abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don't have a mana cost unless they're copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The additional Map token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or \"Exile that token at end of combat\") applies to both the original tokens and the Map."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token created by Worldwaker Helm's last ability copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that token is copying something else; see below). It doesn't copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Worldwaker Helm's first ability to apply."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Greed's Gambit",
+    "originalText": "When Greed's Gambit enters the battlefield, you draw three cards, gain 6 life, and create three 2/1 black Bat creature tokens with flying.\nAt the beginning of your end step, you discard a card, lose 2 life, and sacrifice a creature.\nWhen Greed's Gambit leaves the battlefield, you discard three cards, lose 6 life, and sacrifice three creatures.",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}{B}",
+    "manaValue": 5,
+    "name": "Harvester of Misery",
+    "keywords": [
+      "Menace"
+    ],
+    "originalText": "Menace\nWhen Harvester of Misery enters the battlefield, other creatures get -2/-2 until end of turn.\n{1}{B}, Discard Harvester of Misery: Target creature gets -2/-2 until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Harvester of Misery's second ability affects only other creatures that are on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn and noncreature permanents that become creatures later in the turn won't get -2/-2."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Hostile Investigator",
+    "keywords": [
+      "Investigate"
+    ],
+    "originalText": "When Hostile Investigator enters the battlefield, target opponent discards a card.\nWhenever one or more players discard one or more cards, investigate. This ability triggers only once each turn.",
+    "rarity": "mythic",
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Generous Plunderer",
+    "keywords": [
+      "Menace",
+      "Treasure"
+    ],
+    "originalText": "Menace\nAt the beginning of your upkeep, you may create a Treasure token. When you do, target opponent creates a tapped Treasure token.\nWhenever Generous Plunderer attacks, it deals damage to defending player equal to the number of artifacts they control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "You don’t choose a target for Generous Plunderer’s first triggered ability at the time it triggers. Rather, a second “reflexive” ability triggers when you create a Treasure token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Notably, the triggered ability isn’t a crime, but the reflexive triggered ability potentially is."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Legion Extruder",
+    "originalText": "When Legion Extruder enters the battlefield, it deals 2 damage to any target.\n{2}, {T}, Sacrifice another artifact: Create a 3/3 colorless Golem artifact creature token.",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{R}{R}",
+    "manaValue": 5,
+    "name": "Memory Vessel",
+    "originalText": "{T}, Exile Memory Vessel: Each player exiles the top seven cards of their library. Until your next turn, players may play cards they exiled this way, and they can't play cards from their hand. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Memory Vessel has received a minor update to its Oracle text to clarify that players can play only cards they exiled from their library during the effect of the activated ability, not the Memory Vessel that was exiled to activate the ability."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players may still play cards from zones other than their hand if something would allow them to do so."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players pay all costs and follow all normal timing rules for cards played from exile with Memory Vessel's ability. For example, if an exiled card is a land card, its owner may play it only during their main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Molten Duplication",
+    "originalText": "Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied permanent will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent has {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{R}",
+    "manaValue": 5,
+    "name": "Territory Forge",
+    "originalText": "When Territory Forge enters the battlefield, if you cast it, exile target artifact or land.\nTerritory Forge has all activated abilities of the exiled card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If an activated ability of the exiled card references the card it's printed on by name, treat Territory Forge's version of that ability as though it referenced Territory Forge instead. For example, if the exiled card is Bandit's Haul (which has the ability \"{2}, {T}, Remove two loot counters from Bandit's Haul: Draw a card.), you would treat Territory Forge's version of the ability as though it said \"{2}, {T}, Remove two loot counters from Territory Forge: Draw a card.\""
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Territory Forge gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and may have colons in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Ancient Cornucopia",
+    "originalText": "Whenever you cast a spell that's one or more colors, you may gain 1 life for each of that spell's colors. Do this only once each turn.\n{T}: Add one mana of any color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability counts the number of colors the spell has (from one to five), not how many colored mana symbols there are in its mana cost or how many colors of mana you spent."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered. If that spell is countered, use its last known information to determine what colors it was."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once you choose to gain life using Ancient Cornucopia’s triggered ability, that ability won’t trigger again that turn."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}{G}",
+    "manaValue": 4,
+    "name": "Bristlebud Farmer",
+    "keywords": [
+      "Food",
+      "Mill",
+      "Trample"
+    ],
+    "originalText": "Trample\nWhen Bristlebud Farmer enters the battlefield, create two Food tokens.\nWhenever Bristlebud Farmer attacks, you may sacrifice a Food. If you do, mill three cards. You may put a permanent card from among them into your hand.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with \"Sacrifice a Food\" in its cost)."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{G}",
+    "manaValue": 4,
+    "name": "Omenpath Journey",
+    "originalText": "When Omenpath Journey enters the battlefield, search your library for up to five land cards that have different names, exile them, then shuffle.\nAt the beginning of your end step, choose a card at random exiled with Omenpath Journey and put it onto the battlefield tapped.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "While in your library, a double-faced card has only the name of its front face. It’s not possible to reveal two of the same double-faced card this way."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may search your library for only one land card and exile it, if you like."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Sandstorm Salvager",
+    "originalText": "When Sandstorm Salvager enters the battlefield, create a 3/3 colorless Golem artifact creature token.\n{2}, {T}: Put a +1/+1 counter on each creature token you control. They gain trample until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "In the rare case where +1/+1 counters can’t be put on one or more creature tokens you control, those creature tokens still gain trample until end of turn."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 7,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}{G}{G}",
+    "manaValue": 7,
+    "name": "Vaultborn Tyrant",
+    "keywords": [
+      "Trample"
+    ],
+    "originalText": "Trample\nWhenever Vaultborn Tyrant or another creature with power 4 or greater enters the battlefield under your control, you gain 3 life and draw a card.\nWhen Vaultborn Tyrant dies, if it's not a token, create a token that's a copy of it, except it's an artifact in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exception, the token copies exactly what is printed on Vaultborn Tyrant and nothing else (unless Vaultborn Tyrant was copying something else; see below). It doesn’t copy whether Vaultborn Tyrant was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Vaultborn Tyrant was copying something else when it was last on the battlefield but somehow still had its last ability, then the token enters the battlefield as whatever Vaultborn Tyrant copied, with the listed exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If one or more static abilities that apply to a creature entering the battlefield change its power, those abilities are considered when determining whether or not Vaultborn Tyrant’s second ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once Vaultborn Tyrant’s second ability has triggered, lowering the power of the creature or removing it from the battlefield won’t stop you from gaining life and drawing a card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "When the token copy of Vaultborn Tyrant enters the battlefield, its second ability will trigger."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{G}{U}{R}",
+    "manaValue": 3,
+    "name": "Loot, the Key to Everything",
+    "keywords": [
+      "Ward"
+    ],
+    "originalText": "Ward {1}\nAt the beginning of your upkeep, exile the top X cards of your library, where X is the number of card types among other nonland permanents you control. You may play those cards this turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Lands are disregarded when calculating the value of X. For example, if you control an artifact land but no other artifacts, artifact won't count toward the value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The card types that could appear among your nonland permanents are artifact, battle, creature, enchantment, kindred, and planeswalker."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The value of X is determined as Loot's last ability resolves."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You pay all costs and follow all normal timing rules for cards played from exile with Loot's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{B}",
+    "manaValue": 2,
+    "name": "Pest Control",
+    "keywords": [
+      "Cycling"
+    ],
+    "originalText": "Destroy all nonland permanents with mana value 1 or less.\nCycling {2}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of a permanent includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The mana value of a token that isn’t a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 1,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}",
+    "manaValue": 1,
+    "name": "Lost Jitte",
+    "keywords": [
+      "Equip"
+    ],
+    "originalText": "Whenever equipped creature deals combat damage, put a charge counter on Lost Jitte.\nRemove a charge counter from Lost Jitte: Choose one —\n• Untap target land.\n• Target creature can't block this turn.\n• Put a +1/+1 counter on equipped creature.\nEquip {1}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Choosing a creature that’s already been declared as a blocker as the target of the second mode of the activated ability won’t cause that creature to stop blocking."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may target a land that is already untapped with the first mode of Lost Jitte’s activated ability."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Lotus Ring",
+    "keywords": [
+      "Equip",
+      "Indestructible"
+    ],
+    "originalText": "Indestructible\nEquipped creature gets +3/+3 and has vigilance and \"{T}, Sacrifice this creature: Add three mana of any one color.\"\nEquip {3}",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 6,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{6}",
+    "manaValue": 6,
+    "name": "Nexus of Becoming",
+    "originalText": "At the beginning of combat on your turn, draw a card. Then you may exile an artifact or creature card from your hand. If you do, create a token that's a copy of the exiled card, except it's a 3/3 Golem artifact creature in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied card will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied card will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what’s printed on the exiled card and nothing else."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the exiled card has {X} in its mana cost, X is 0."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Sword of Wealth and Power",
+    "keywords": [
+      "Equip",
+      "Treasure"
+    ],
+    "originalText": "Equipped creature gets +2/+2 and has protection from instants and from sorceries.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nEquip {2}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Protection from instants and from sorceries means that the equipped creature can’t be the target of instant spells, sorcery spells, or abilities from instant or sorcery cards (such as an ability of an instant card that triggers when that card is cycled), and all damage that an instant or sorcery spell or card would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy created by Sword of Wealth and Power’s delayed triggered ability will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy made by Sword of Wealth and Power’s delayed triggered ability is created on the stack, so it’s not “cast.”"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "predh": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}",
+    "manaValue": 2,
+    "name": "Torpor Orb",
+    "originalText": "Creatures entering the battlefield don't cause abilities to trigger.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Abilities that apply \"as [this creature] enters the battlefield,\" including many abilities that ask a creature's controller to choose a color or creature type, are unaffected."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Torpor Orb and a creature enter the battlefield at the same time, that creature entering the battlefield won't cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Look at the permanent as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger. For example, if you control March of the Machines, which says, in part, \"Each noncreature artifact is an artifact creature,\" each artifact will be a creature at the time it enters the battlefield and will not cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Replacement effects are unaffected by Torpor Orb's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it will still receive a +1/+1 counter."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The trigger event doesn't have to specify \"creatures\" entering the battlefield. For example, Captain Storm, Cosmium Raider from the Lost Caverns of Ixalan release has an ability that says \"Whenever an artifact enters the battlefield under your control, put a +1/+1 counter on target Pirate you control.\" If an artifact creature enters the battlefield under your control, that ability won't trigger. If a noncreature artifact enters the battlefield under your control, the ability will trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Torpor Orb stops a creature's own enters-the-battlefield triggered abilities as well as other triggered abilities that would trigger when a creature enters the battlefield."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Triggered abilities use the word \"when,\" \"whenever,\" or \"at.\" They're often written as \"[Trigger condition], [effect].\" Some keyword abilities are triggered abilities and will have \"when,\" \"whenever,\" or \"at the beginning of\" in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}",
+    "manaValue": 5,
+    "name": "Transmutation Font",
+    "keywords": [
+      "Food"
+    ],
+    "originalText": "{T}: Create your choice of a Blood token, a Clue token, or a Food token.\n{3}, {T}, Sacrifice three artifact tokens with different names: Search your library for an artifact card, put it onto the battlefield, then shuffle. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "Some triggered abilities trigger \"whenever you sacrifice a Blood token.\" These abilities trigger regardless of why you sacrificed that Blood token."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "You can't sacrifice a Blood token to pay multiple costs."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Fomori Vault",
+    "originalText": "{T}: Add {C}.\n{3}, {T}, Discard a card: Look at the top X cards of your library, where X is the number of artifacts you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Tarnation Vista",
+    "originalText": "Tarnation Vista enters the battlefield tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Tarnation Vista’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The five colors are white, blue, black, red, and green, and as such, Tarnation Vista’s last ability can produce five mana at most."
+      }
+    ],
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 7,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}{G}{G}",
+    "manaValue": 7,
+    "name": "Vaultborn Tyrant",
+    "keywords": [
+      "Trample"
+    ],
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exception, the token copies exactly what is printed on Vaultborn Tyrant and nothing else (unless Vaultborn Tyrant was copying something else; see below). It doesn’t copy whether Vaultborn Tyrant was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Vaultborn Tyrant was copying something else when it was last on the battlefield but somehow still had its last ability, then the token enters the battlefield as whatever Vaultborn Tyrant copied, with the listed exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If one or more static abilities that apply to a creature entering the battlefield change its power, those abilities are considered when determining whether or not Vaultborn Tyrant’s second ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once Vaultborn Tyrant’s second ability has triggered, lowering the power of the creature or removing it from the battlefield won’t stop you from gaining life and drawing a card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "When the token copy of Vaultborn Tyrant enters the battlefield, its second ability will trigger."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{G}{U}{R}",
+    "manaValue": 3,
+    "name": "Loot, the Key to Everything",
+    "keywords": [
+      "Ward"
+    ],
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Lands are disregarded when calculating the value of X. For example, if you control an artifact land but no other artifacts, artifact won't count toward the value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The card types that could appear among your nonland permanents are artifact, battle, creature, enchantment, kindred, and planeswalker."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The value of X is determined as Loot's last ability resolves."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You pay all costs and follow all normal timing rules for cards played from exile with Loot's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Lotus Ring",
+    "keywords": [
+      "Equip",
+      "Indestructible"
+    ],
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Sword of Wealth and Power",
+    "keywords": [
+      "Equip",
+      "Treasure"
+    ],
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Protection from instants and from sorceries means that the equipped creature can’t be the target of instant spells, sorcery spells, or abilities from instant or sorcery cards (such as an ability of an instant card that triggers when that card is cycled), and all damage that an instant or sorcery spell or card would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy created by Sword of Wealth and Power’s delayed triggered ability will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy made by Sword of Wealth and Power’s delayed triggered ability is created on the stack, so it’s not “cast.”"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Tarnation Vista",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Tarnation Vista’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The five colors are white, blue, black, red, and green, and as such, Tarnation Vista’s last ability can produce five mana at most."
+      }
+    ],
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Collector's Cage",
+    "keywords": [
+      "Hideaway"
+    ],
+    "originalText": "Hideaway 5\n{1}, {T}: Put a +1/+1 counter on target creature you control. Then if you control three or more creatures with different powers, you may play the exiled card without paying its mana cost.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Collector's Cage's last ability looks at the creatures you control as it resolves to determine if you can play the exiled card. For example, if you control a 4/5 creature, a 1/1 creature, and a 2/1 creature, there are three different powers among creatures you control."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If you cast a spell \"without paying its mana cost,\" you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads \"[This permanent] enters the battlefield tapped,\" and they now have hideaway 4."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You choose whether to play the exiled card as Collector's Cage's last ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to play it later in the turn. Timing restrictions based on the card's types are ignored. However, you can never play lands on other players' turns."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{W}",
+    "manaValue": 2,
+    "name": "Grand Abolisher",
+    "originalText": "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't affect triggered abilities or static abilities."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "Grand Abolisher doesn't stop your opponents from activating abilities of artifact, creature, or entorchantment cards in zones other than the battlefield (like cycling abilities, for example)."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{W}",
+    "manaValue": 3,
+    "name": "Oltec Matterweaver",
+    "originalText": "Whenever you cast a creature spell, choose one —\n• Create a 1/1 colorless Gnome artifact creature token.\n• Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don’t have a mana cost unless they’re copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Oltec Matterweaver’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "manaValue": 2,
+    "name": "Rest in Peace",
+    "originalText": "When Rest in Peace enters the battlefield, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2018-03-16",
+        "text": "If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "If a card is discarded while Rest in Peace is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "While Rest in Peace is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Esoteric Duplicator",
+    "originalText": "Whenever you sacrifice Esoteric Duplicator or another artifact, you may pay {2}. If you do, at the beginning of the next end step, create a token that's a copy of that artifact.\n{2}, Sacrifice Esoteric Duplicator: Draw a card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied artifact will trigger when the token enters the battlefield. Any “as [this artifact] enters the battlefield” or “[this artifact] enters the battlefield with” abilities of the copied artifact will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied artifact was copying something else when it was last on the battlefield, then the token enters the battlefield as whatever that artifact copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The token copies exactly what was printed on the original artifact and nothing else (unless that artifact was copying something else or was a token; see below). It doesn’t copy whether that artifact was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Simulacrum Synthesizer",
+    "keywords": [
+      "Scry"
+    ],
+    "originalText": "When Simulacrum Synthesizer enters the battlefield, scry 2.\nWhenever another artifact with mana value 3 or greater enters the battlefield under your control, create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of an artifact on the battlefield includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The ability of the Construct token created by Simulacrum Synthesizer's last ability does count the Construct itself, so it'll be at least 1/1."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "manaValue": 3,
+    "name": "Worldwalker Helm",
+    "keywords": [
+      "Explore"
+    ],
+    "originalText": "If you would create one or more artifact tokens, instead create those tokens plus an additional Map token.\n{1}{U}, {T}: Create a token that's a copy of target artifact token you control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any \"as [this permanent] enters the battlefield\" or \"[this permanent] enters the battlefield with\" abilities of the copied token will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token has {X} in its mana cost, X is 0. (Most tokens don't have a mana cost unless they're copying something else.)"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The additional Map token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or \"Exile that token at end of combat\") applies to both the original tokens and the Map."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The new token created by Worldwaker Helm's last ability copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that token is copying something else; see below). It doesn't copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Worldwaker Helm's first ability to apply."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Greed's Gambit",
+    "originalText": "When Greed's Gambit enters the battlefield, you draw three cards, gain 6 life, and create three 2/1 black Bat creature tokens with flying.\nAt the beginning of your end step, you discard a card, lose 2 life, and sacrifice a creature.\nWhen Greed's Gambit leaves the battlefield, you discard three cards, lose 6 life, and sacrifice three creatures.",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}{B}",
+    "manaValue": 5,
+    "name": "Harvester of Misery",
+    "keywords": [
+      "Menace"
+    ],
+    "originalText": "Menace\nWhen Harvester of Misery enters the battlefield, other creatures get -2/-2 until end of turn.\n{1}{B}, Discard Harvester of Misery: Target creature gets -2/-2 until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Harvester of Misery's second ability affects only other creatures that are on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn and noncreature permanents that become creatures later in the turn won't get -2/-2."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}",
+    "manaValue": 4,
+    "name": "Hostile Investigator",
+    "keywords": [
+      "Investigate"
+    ],
+    "originalText": "When Hostile Investigator enters the battlefield, target opponent discards a card.\nWhenever one or more players discard one or more cards, investigate. This ability triggers only once each turn.",
+    "rarity": "mythic",
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Generous Plunderer",
+    "keywords": [
+      "Menace",
+      "Treasure"
+    ],
+    "originalText": "Menace\nAt the beginning of your upkeep, you may create a Treasure token. When you do, target opponent creates a tapped Treasure token.\nWhenever Generous Plunderer attacks, it deals damage to defending player equal to the number of artifacts they control.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "You don’t choose a target for Generous Plunderer’s first triggered ability at the time it triggers. Rather, a second “reflexive” ability triggers when you create a Treasure token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Notably, the triggered ability isn’t a crime, but the reflexive triggered ability potentially is."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Legion Extruder",
+    "originalText": "When Legion Extruder enters the battlefield, it deals 2 damage to any target.\n{2}, {T}, Sacrifice another artifact: Create a 3/3 colorless Golem artifact creature token.",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{R}{R}",
+    "manaValue": 5,
+    "name": "Memory Vessel",
+    "originalText": "{T}, Exile Memory Vessel: Each player exiles the top seven cards of their library. Until your next turn, players may play cards they exiled this way, and they can't play cards from their hand. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Memory Vessel has received a minor update to its Oracle text to clarify that players can play only cards they exiled from their library during the effect of the activated ability, not the Memory Vessel that was exiled to activate the ability."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players may still play cards from zones other than their hand if something would allow them to do so."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Players pay all costs and follow all normal timing rules for cards played from exile with Memory Vessel's ability. For example, if an exiled card is a land card, its owner may play it only during their main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "manaValue": 2,
+    "name": "Molten Duplication",
+    "originalText": "Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied permanent will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent has {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{R}",
+    "manaValue": 5,
+    "name": "Territory Forge",
+    "originalText": "When Territory Forge enters the battlefield, if you cast it, exile target artifact or land.\nTerritory Forge has all activated abilities of the exiled card.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If an activated ability of the exiled card references the card it's printed on by name, treat Territory Forge's version of that ability as though it referenced Territory Forge instead. For example, if the exiled card is Bandit's Haul (which has the ability \"{2}, {T}, Remove two loot counters from Bandit's Haul: Draw a card.), you would treat Territory Forge's version of the ability as though it said \"{2}, {T}, Remove two loot counters from Territory Forge: Draw a card.\""
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Territory Forge gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and may have colons in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Ancient Cornucopia",
+    "originalText": "Whenever you cast a spell that's one or more colors, you may gain 1 life for each of that spell's colors. Do this only once each turn.\n{T}: Add one mana of any color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability counts the number of colors the spell has (from one to five), not how many colored mana symbols there are in its mana cost or how many colors of mana you spent."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Ancient Cornucopia’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered. If that spell is countered, use its last known information to determine what colors it was."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once you choose to gain life using Ancient Cornucopia’s triggered ability, that ability won’t trigger again that turn."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}{G}",
+    "manaValue": 4,
+    "name": "Bristlebud Farmer",
+    "keywords": [
+      "Food",
+      "Mill",
+      "Trample"
+    ],
+    "originalText": "Trample\nWhen Bristlebud Farmer enters the battlefield, create two Food tokens.\nWhenever Bristlebud Farmer attacks, you may sacrifice a Food. If you do, mill three cards. You may put a permanent card from among them into your hand.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with \"Sacrifice a Food\" in its cost)."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 4,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{G}",
+    "manaValue": 4,
+    "name": "Omenpath Journey",
+    "originalText": "When Omenpath Journey enters the battlefield, search your library for up to five land cards that have different names, exile them, then shuffle.\nAt the beginning of your end step, choose a card at random exiled with Omenpath Journey and put it onto the battlefield tapped.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "While in your library, a double-faced card has only the name of its front face. It’s not possible to reveal two of the same double-faced card this way."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may search your library for only one land card and exile it, if you like."
+      }
+    ],
+    "types": [
+      "Enchantment"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "manaValue": 3,
+    "name": "Sandstorm Salvager",
+    "originalText": "When Sandstorm Salvager enters the battlefield, create a 3/3 colorless Golem artifact creature token.\n{2}, {T}: Put a +1/+1 counter on each creature token you control. They gain trample until end of turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "In the rare case where +1/+1 counters can’t be put on one or more creature tokens you control, those creature tokens still gain trample until end of turn."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 7,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}{G}{G}",
+    "manaValue": 7,
+    "name": "Vaultborn Tyrant",
+    "keywords": [
+      "Trample"
+    ],
+    "originalText": "Trample\nWhenever Vaultborn Tyrant or another creature with power 4 or greater enters the battlefield under your control, you gain 3 life and draw a card.\nWhen Vaultborn Tyrant dies, if it's not a token, create a token that's a copy of it, except it's an artifact in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exception, the token copies exactly what is printed on Vaultborn Tyrant and nothing else (unless Vaultborn Tyrant was copying something else; see below). It doesn’t copy whether Vaultborn Tyrant was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Vaultborn Tyrant was copying something else when it was last on the battlefield but somehow still had its last ability, then the token enters the battlefield as whatever Vaultborn Tyrant copied, with the listed exceptions."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If one or more static abilities that apply to a creature entering the battlefield change its power, those abilities are considered when determining whether or not Vaultborn Tyrant’s second ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Once Vaultborn Tyrant’s second ability has triggered, lowering the power of the creature or removing it from the battlefield won’t stop you from gaining life and drawing a card."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "When the token copy of Vaultborn Tyrant enters the battlefield, its second ability will trigger."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{G}{U}{R}",
+    "manaValue": 3,
+    "name": "Loot, the Key to Everything",
+    "keywords": [
+      "Ward"
+    ],
+    "originalText": "Ward {1}\nAt the beginning of your upkeep, exile the top X cards of your library, where X is the number of card types among other nonland permanents you control. You may play those cards this turn.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Lands are disregarded when calculating the value of X. For example, if you control an artifact land but no other artifacts, artifact won't count toward the value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The card types that could appear among your nonland permanents are artifact, battle, creature, enchantment, kindred, and planeswalker."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The value of X is determined as Loot's last ability resolves."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You pay all costs and follow all normal timing rules for cards played from exile with Loot's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty."
+      }
+    ],
+    "types": [
+      "Creature"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}{B}",
+    "manaValue": 2,
+    "name": "Pest Control",
+    "keywords": [
+      "Cycling"
+    ],
+    "originalText": "Destroy all nonland permanents with mana value 1 or less.\nCycling {2}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the mana cost of a permanent includes {X}, X is 0 for the purpose of determining its mana value."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The mana value of a token that isn’t a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object."
+      }
+    ],
+    "types": [
+      "Sorcery"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 1,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}",
+    "manaValue": 1,
+    "name": "Lost Jitte",
+    "keywords": [
+      "Equip"
+    ],
+    "originalText": "Whenever equipped creature deals combat damage, put a charge counter on Lost Jitte.\nRemove a charge counter from Lost Jitte: Choose one —\n• Untap target land.\n• Target creature can't block this turn.\n• Put a +1/+1 counter on equipped creature.\nEquip {1}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Choosing a creature that’s already been declared as a blocker as the target of the second mode of the activated ability won’t cause that creature to stop blocking."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You may target a land that is already untapped with the first mode of Lost Jitte’s activated ability."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Lotus Ring",
+    "keywords": [
+      "Equip",
+      "Indestructible"
+    ],
+    "originalText": "Indestructible\nEquipped creature gets +3/+3 and has vigilance and \"{T}, Sacrifice this creature: Add three mana of any one color.\"\nEquip {3}",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 6,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{6}",
+    "manaValue": 6,
+    "name": "Nexus of Becoming",
+    "originalText": "At the beginning of combat on your turn, draw a card. Then you may exile an artifact or creature card from your hand. If you do, create a token that's a copy of the exiled card, except it's a 3/3 Golem artifact creature in addition to its other types.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Any enters-the-battlefield abilities of the copied card will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied card will also work."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Except for the listed exceptions, the token copies exactly what’s printed on the exiled card and nothing else."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the exiled card has {X} in its mana cost, X is 0."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 3,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "manaValue": 3,
+    "name": "Sword of Wealth and Power",
+    "keywords": [
+      "Equip",
+      "Treasure"
+    ],
+    "originalText": "Equipped creature gets +2/+2 and has protection from instants and from sorceries.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nEquip {2}",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Protection from instants and from sorceries means that the equipped creature can’t be the target of instant spells, sorcery spells, or abilities from instant or sorcery cards (such as an ability of an instant card that triggers when that card is cycled), and all damage that an instant or sorcery spell or card would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy created by Sword of Wealth and Power’s delayed triggered ability will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The copy made by Sword of Wealth and Power’s delayed triggered ability is created on the stack, so it’s not “cast.”"
+      },
+      {
+        "date": "2024-04-12",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 2,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "predh": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}",
+    "manaValue": 2,
+    "name": "Torpor Orb",
+    "originalText": "Creatures entering the battlefield don't cause abilities to trigger.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Abilities that apply \"as [this creature] enters the battlefield,\" including many abilities that ask a creature's controller to choose a color or creature type, are unaffected."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "If Torpor Orb and a creature enter the battlefield at the same time, that creature entering the battlefield won't cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Look at the permanent as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger. For example, if you control March of the Machines, which says, in part, \"Each noncreature artifact is an artifact creature,\" each artifact will be a creature at the time it enters the battlefield and will not cause triggered abilities to trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Replacement effects are unaffected by Torpor Orb's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it will still receive a +1/+1 counter."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The trigger event doesn't have to specify \"creatures\" entering the battlefield. For example, Captain Storm, Cosmium Raider from the Lost Caverns of Ixalan release has an ability that says \"Whenever an artifact enters the battlefield under your control, put a +1/+1 counter on target Pirate you control.\" If an artifact creature enters the battlefield under your control, that ability won't trigger. If a noncreature artifact enters the battlefield under your control, the ability will trigger."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Torpor Orb stops a creature's own enters-the-battlefield triggered abilities as well as other triggered abilities that would trigger when a creature enters the battlefield."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "Triggered abilities use the word \"when,\" \"whenever,\" or \"at.\" They're often written as \"[Trigger condition], [effect].\" Some keyword abilities are triggered abilities and will have \"when,\" \"whenever,\" or \"at the beginning of\" in their reminder text."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 5,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}",
+    "manaValue": 5,
+    "name": "Transmutation Font",
+    "keywords": [
+      "Food"
+    ],
+    "originalText": "{T}: Create your choice of a Blood token, a Clue token, or a Food token.\n{3}, {T}, Sacrifice three artifact tokens with different names: Search your library for an artifact card, put it onto the battlefield, then shuffle. Activate only as a sorcery.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-11-08",
+        "text": "Food is an artifact type. Even though it appears on some creatures, it's never a creature type."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "Whatever you do, don't eat the delicious cards."
+      },
+      {
+        "date": "2024-11-08",
+        "text": "You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "Some triggered abilities trigger \"whenever you sacrifice a Blood token.\" These abilities trigger regardless of why you sacrificed that Blood token."
+      },
+      {
+        "date": "2025-01-24",
+        "text": "You can't sacrifice a Blood token to pay multiple costs."
+      }
+    ],
+    "types": [
+      "Artifact"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Fomori Vault",
+    "originalText": "{T}: Add {C}.\n{3}, {T}, Discard a card: Look at the top X cards of your library, where X is the number of artifacts you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ]
+  },
+  {
+    "borderColor": "black",
+    "colors": [],
+    "convertedManaCost": 0,
+    "legalities": {
+      "brawl": "Legal",
+      "commander": "Legal",
+      "duel": "Legal",
+      "future": "Legal",
+      "gladiator": "Legal",
+      "historic": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "oathbreaker": "Legal",
+      "penny": "Legal",
+      "pioneer": "Legal",
+      "standard": "Legal",
+      "standardbrawl": "Legal",
+      "timeless": "Legal",
+      "vintage": "Legal"
+    },
+    "manaValue": 0,
+    "name": "Tarnation Vista",
+    "originalText": "Tarnation Vista enters the battlefield tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.",
+    "rarity": "mythic",
+    "rulings": [
+      {
+        "date": "2024-04-12",
+        "text": "Tarnation Vista’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "2024-04-12",
+        "text": "The five colors are white, blue, black, red, and green, and as such, Tarnation Vista’s last ability can produce five mana at most."
+      }
+    ],
+    "types": [
+      "Land"
+    ]
+  }
+]
