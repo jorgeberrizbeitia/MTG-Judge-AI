@@ -1,82 +1,82 @@
 [
   {
-    "question": "Does playing a land use the stack and can your opponent respond to it?",
+    "text": "Does playing a land use the stack and can your opponent respond to it?",
     "answer": "No"
   },
   {
-    "question": "Is turning a face-down creature face-up (morph) an action that uses the stack?",
+    "text": "Is turning a face-down creature face-up (morph) an action that uses the stack?",
     "answer": "No"
   },
   {
-    "question": "Can a continuous static effect and a triggered ability both modify power/toughness—the static applying before and after the trigger—depending on layers?",
+    "text": "Can a continuous static effect and a triggered ability both modify power/toughness—the static applying before and after the trigger—depending on layers?",
     "answer": "Yes"
   },
   {
-    "question": "If one effect says “you may do X” and another says “you can’t do X,” does the ‘can’t’ effect override?",
+    "text": "If one effect says “you may do X” and another says “you can’t do X,” does the ‘can’t’ effect override?",
     "answer": "Yes"
   },
   {
-    "question": "Can Magus of the Moon’s land-type–changing ability be removed by Humility's ability removal?",
+    "text": "Can Magus of the Moon’s land-type–changing ability be removed by Humility's ability removal?",
     "answer": "No"
   },
   {
-    "question": "Does Humility still apply its base power/toughness setting even if it tries to remove its own ability via layers and timestamps?",
+    "text": "Does Humility still apply its base power/toughness setting even if it tries to remove its own ability via layers and timestamps?",
     "answer": "Yes"
   },
   {
-    "question": "Can you respond to a mana ability being used (like tapping a land for mana)?",
+    "text": "Can you respond to a mana ability being used (like tapping a land for mana)?",
     "answer": "No"
   },
   {
-    "question": "Can there be infinite or multiple cleanup steps triggered by effects like Kozilek plus discard effects?",
+    "text": "Can there be infinite or multiple cleanup steps triggered by effects like Kozilek plus discard effects?",
     "answer": "Yes"
   },
   {
-    "question": "If a triggered ability and a spell are placed on the stack simultaneously, are they ordered by APNAP (active player, non-active player)?",
+    "text": "If a triggered ability and a spell are placed on the stack simultaneously, are they ordered by APNAP (active player, non-active player)?",
     "answer": "Yes"
   },
   {
-    "question": "Is phasing putting a permanent into exile or the battlefield (i.e., does it trigger enter/leave the battlefield effects)?",
+    "text": "Is phasing putting a permanent into exile or the battlefield (i.e., does it trigger enter/leave the battlefield effects)?",
     "answer": "No"
   },
   {
-    "question": "If a creature phases out and back in, does it lose summoning sickness if it had it before?",
+    "text": "If a creature phases out and back in, does it lose summoning sickness if it had it before?",
     "answer": "No"
   },
   {
-    "question": "Are continuous effects applied in a specific layered system, such as type-changing, ability additions, P/T changes, in numbered order?",
+    "text": "Are continuous effects applied in a specific layered system, such as type-changing, ability additions, P/T changes, in numbered order?",
     "answer": "Yes"
   },
   {
-    "question": "If two continuous effects in the same layer conflict, is timestamp (or dependency) order used to resolve them?",
+    "text": "If two continuous effects in the same layer conflict, is timestamp (or dependency) order used to resolve them?",
     "answer": "Yes"
   },
   {
-    "question": "Are special actions like playing a land or turning a face-down creature face-up things opponents cannot respond to?",
+    "text": "Are special actions like playing a land or turning a face-down creature face-up things opponents cannot respond to?",
     "answer": "Yes"
   },
   {
-    "question": "Does Lab Maniac let you win if you draw from an empty library?",
+    "text": "Does Lab Maniac let you win if you draw from an empty library?",
     "answer": "Yes"
   },
   {
-    "question": "Does the card Shahrazad cause you to play a subgame?",
+    "text": "Does the card Shahrazad cause you to play a subgame?",
     "answer": "Yes"
   },
   {
-    "question": "Does Reliquary Tower remove the maximum hand size limit?",
+    "text": "Does Reliquary Tower remove the maximum hand size limit?",
     "answer": "Yes"
   },
   {
-    "question": "Can Mindslaver allow you to control an opponent’s turn?",
+    "text": "Can Mindslaver allow you to control an opponent’s turn?",
     "answer": "Yes"
   },
   {
-    "question": "Does the 'golden rule' that 'card text overrides rules' mean printed text always wins over general rules?",
+    "text": "Does the 'golden rule' that 'card text overrides rules' mean printed text always wins over general rules?",
     "answer": "Yes"
   },
   {
-    "question": "Can continuous effects like those from Painter's Servant remain after ability-removal effects if they apply in earlier layers?",
+    "text": "Can continuous effects like those from Painter's Servant remain after ability-removal effects if they apply in earlier layers?",
     "answer": "Yes"
   }
 ]

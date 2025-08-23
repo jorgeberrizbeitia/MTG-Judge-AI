@@ -1,82 +1,82 @@
 [
   {
-    "question": "Does protection from a color prevent all damage, targeting, and blocking from that color?",
+    "text": "Does protection from a color prevent all damage, targeting, and blocking from that color?",
     "answer": "Yes"
   },
   {
-    "question": "Can a creature with indestructible be destroyed by lethal damage?",
+    "text": "Can a creature with indestructible be destroyed by lethal damage?",
     "answer": "No"
   },
   {
-    "question": "Can you activate a tap ability of a creature that has just entered the battlefield and has summoning sickness (without haste)?",
+    "text": "Can you activate a tap ability of a creature that has just entered the battlefield and has summoning sickness (without haste)?",
     "answer": "No"
   },
   {
-    "question": "Can you cast an instant during your opponent’s turn?",
+    "text": "Can you cast an instant during your opponent’s turn?",
     "answer": "Yes"
   },
   {
-    "question": "If a spell has already resolved, can you counter it?",
+    "text": "If a spell has already resolved, can you counter it?",
     "answer": "No"
   },
   {
-    "question": "If you control two legendary permanents with the same name, must you put one into the graveyard?",
+    "text": "If you control two legendary permanents with the same name, must you put one into the graveyard?",
     "answer": "Yes"
   },
   {
-    "question": "Does the stack operate in last-in, first-out order?",
+    "text": "Does the stack operate in last-in, first-out order?",
     "answer": "Yes"
   },
   {
-    "question": "Can you cast a sorcery during your opponent’s turn?",
+    "text": "Can you cast a sorcery during your opponent’s turn?",
     "answer": "No"
   },
   {
-    "question": "Does a card’s text override a general game rule if they conflict?",
+    "text": "Does a card’s text override a general game rule if they conflict?",
     "answer": "Yes"
   },
   {
-    "question": "If you must draw a card from an empty library, do you lose the game?",
+    "text": "If you must draw a card from an empty library, do you lose the game?",
     "answer": "Yes"
   },
   {
-    "question": "Does Trample allow excess combat damage to go through blockers to the defending player?",
+    "text": "Does Trample allow excess combat damage to go through blockers to the defending player?",
     "answer": "Yes"
   },
   {
-    "question": "Can a planeswalker be attacked directly by creatures if not blocked?",
+    "text": "Can a planeswalker be attacked directly by creatures if not blocked?",
     "answer": "Yes"
   },
   {
-    "question": "Does vigilance mean a creature doesn’t tap when it attacks?",
+    "text": "Does vigilance mean a creature doesn’t tap when it attacks?",
     "answer": "Yes"
   },
   {
-    "question": "Does flash let you cast a creature on an opponent’s turn?",
+    "text": "Does flash let you cast a creature on an opponent’s turn?",
     "answer": "Yes"
   },
   {
-    "question": "Can you use an ability tied to tapping a permanent if that permanent is already tapped?",
+    "text": "Can you use an ability tied to tapping a permanent if that permanent is already tapped?",
     "answer": "No"
   },
   {
-    "question": "Can you pay mana using future mana from an effect that produces it next turn?",
+    "text": "Can you pay mana using future mana from an effect that produces it next turn?",
     "answer": "No"
   },
   {
-    "question": "If a spell says it can't be countered, can it be countered by another card?",
+    "text": "If a spell says it can't be countered, can it be countered by another card?",
     "answer": "No"
   },
   {
-    "question": "Does double strike deal both first-strike and regular damage?",
+    "text": "Does double strike deal both first-strike and regular damage?",
     "answer": "Yes"
   },
   {
-    "question": "Does scry let you look at cards and choose to put some on top or bottom of your library?",
+    "text": "Does scry let you look at cards and choose to put some on top or bottom of your library?",
     "answer": "Yes"
   },
   {
-    "question": "If you draw more than seven cards, can you keep them all if no other effect limits your hand size?",
+    "text": "If you draw more than seven cards, can you keep them all if no other effect limits your hand size?",
     "answer": "Yes"
   }
 ]
