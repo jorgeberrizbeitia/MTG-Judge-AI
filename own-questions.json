@@ -1,0 +1,23 @@
+[
+  {
+    "question": "If I imprint Time Walk on Panoptic Mirror, do I get infinite turns?",
+    "answer": "Yes"
+  },
+  {
+    "question": "I am being attacked by Agonasaur Rex and I declare Aegis Turtle as a blocker. But before assigning damage, I play Bounce Off on Aegis Turtle. Do I receive the full 8 damage from Agonasaur Rex?",
+    "answer": "Yes"
+  },
+  {
+    "question": "I am being attacked by Axebane Ferox and I declare Aegis Turtle as a blocker. But before assigning damage, I play Bounce Off on Aegis Turtle. Do I still receive 4 damage from Agonasaur Rex?",
+    "answer": "No"
+  },
+  {
+    "question": "Someone is playing Flashfreeze on one of my spells, Can I play Aven Interrupter on top of Flashfreeze so my initial spell can be resolved?",
+    "answer": "Yes"
+  },
+  {
+    "question": "I am being attacked by Axebane Ferox and I declare Balamb T-Rexaur as a blocker. After assigning damage, both creatures should die. As a response of my Balamb T-Rexaur dying, can I play Corrupted Conviction to sacrifice it to draw two cards?",
+    "answer": "No"
+  }
+
+]

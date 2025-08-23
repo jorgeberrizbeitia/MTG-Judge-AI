@@ -1,5 +1,6 @@
 [
   {
+    "uuid": "8b959fa6-401f-56dc-bc55-4474bcfa3a7c",
     "borderColor": "black",
     "colors": [
       "W"
@@ -61,9 +62,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "825bfaec-78b2-5df0-837a-f9c075c72494",
     "borderColor": "black",
     "colors": [
       "W"
@@ -103,9 +106,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Cleric"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "fca1ea22-e5d4-5f09-9859-7cab8662912b",
     "borderColor": "black",
     "colors": [
       "W"
@@ -157,9 +167,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "4",
+    "power": "2"
   },
   {
+    "uuid": "7ab95887-888b-571c-882f-3003a165dd92",
     "borderColor": "black",
     "colors": [
       "W"
@@ -202,9 +219,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "8cee956e-4c65-5d1f-b6d1-077c393981d5",
     "borderColor": "black",
     "colors": [
       "U"
@@ -256,9 +275,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Clue"
     ]
   },
   {
+    "uuid": "30466b24-10b4-5a9c-8eae-5df40e9cf1c2",
     "borderColor": "black",
     "colors": [
       "U"
@@ -300,9 +323,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "3eba9b11-1208-5a0e-a445-e533d6455c1b",
     "borderColor": "black",
     "colors": [
       "U"
@@ -365,9 +390,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b1aebc89-6fff-59ed-967b-afbe112aafc4",
     "borderColor": "black",
     "colors": [
       "B"
@@ -397,9 +424,11 @@
     "rarity": "mythic",
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "60eff4be-2617-51fc-bc8d-aa5f755dcdce",
     "borderColor": "black",
     "colors": [
       "B"
@@ -437,9 +466,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Spirit"
+    ],
+    "toughness": "4",
+    "power": "5"
   },
   {
+    "uuid": "82e030cc-eab3-5b89-8756-f3089d96928b",
     "borderColor": "black",
     "colors": [
       "B"
@@ -471,9 +506,17 @@
     "rarity": "mythic",
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Ogre",
+      "Rogue",
+      "Detective"
+    ],
+    "toughness": "3",
+    "power": "4"
   },
   {
+    "uuid": "75a96eed-9b8e-5289-8158-034d40a8bdae",
     "borderColor": "black",
     "colors": [
       "R"
@@ -513,9 +556,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Rogue"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "4fdb4bf6-d3cd-56fc-82eb-b1d665f9f668",
     "borderColor": "black",
     "colors": [
       "R"
@@ -544,9 +594,11 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "5b2daf16-28fc-5f5c-a5b2-eee8a3d3c5ea",
     "borderColor": "black",
     "colors": [
       "R"
@@ -590,9 +642,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "abe15199-46ff-563f-9aac-e944549ab9a3",
     "borderColor": "black",
     "colors": [
       "R"
@@ -644,9 +698,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "8cdcf11a-b5b3-5402-b648-e1d0fd7a98e4",
     "borderColor": "black",
     "colors": [
       "R"
@@ -686,9 +742,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "92071066-e49e-548c-b1f6-d0bea2532388",
     "borderColor": "black",
     "colors": [
       "G"
@@ -731,9 +789,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "371dfc14-724a-5d81-99eb-d1154c96f16a",
     "borderColor": "black",
     "colors": [
       "G"
@@ -790,9 +850,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Plant",
+      "Druid"
+    ],
+    "toughness": "5",
+    "power": "5"
   },
   {
+    "uuid": "67f8fc77-6145-511d-b8ef-5d3ae29e77ce",
     "borderColor": "black",
     "colors": [
       "G"
@@ -832,9 +899,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "0ac3a104-8c33-5ed1-b9ea-39053932ac70",
     "borderColor": "black",
     "colors": [
       "G"
@@ -869,9 +938,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "1",
+    "power": "1"
   },
   {
+    "uuid": "fa6828ad-a350-58d0-abf9-b802b1e11b9c",
     "borderColor": "black",
     "colors": [
       "G"
@@ -925,9 +1001,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Dinosaur"
+    ],
+    "toughness": "6",
+    "power": "6"
   },
   {
+    "uuid": "e65aaef6-bb56-5a20-9bee-d6a08b6392c7",
     "borderColor": "black",
     "colors": [
       "G",
@@ -980,9 +1062,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Beast",
+      "Noble"
+    ],
+    "toughness": "2",
+    "power": "1"
   },
   {
+    "uuid": "c8a71468-a0c7-5443-96a1-c63789ffb638",
     "borderColor": "black",
     "colors": [
       "B",
@@ -1025,9 +1114,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "063797b3-2776-535c-bbd7-9cf9a5a2e649",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 1,
@@ -1067,9 +1158,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "a8c83c7a-c0b8-587f-a51b-a0df78eb3f5d",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -1101,9 +1196,13 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "e5b0214e-9c5a-558f-baac-e003a2a8a4c3",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 6,
@@ -1145,9 +1244,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b4672eaf-4004-5721-9587-e5d304b79acc",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -1209,9 +1310,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "60917bf0-4a28-511a-af9a-a762c98febd1",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 2,
@@ -1269,9 +1374,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "19ccb9c7-cf07-55c2-babc-6723942e07d4",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 5,
@@ -1328,9 +1435,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "acc256d0-870e-5266-a8e5-d6a14f289b6c",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -1356,9 +1465,11 @@
     "rarity": "mythic",
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "f1f86ff4-a918-513f-81fd-add1ce12df51",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -1395,9 +1506,11 @@
     ],
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b7045ad4-a28e-54a0-9318-f4bd2c42ae20",
     "borderColor": "black",
     "colors": [
       "W"
@@ -1459,9 +1572,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "f97bb97e-653d-532a-8d91-082b88ad9025",
     "borderColor": "black",
     "colors": [
       "W"
@@ -1501,9 +1616,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Cleric"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "601dc4a0-946e-502d-b7c7-e69bb45a71d0",
     "borderColor": "black",
     "colors": [
       "W"
@@ -1555,9 +1677,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "4",
+    "power": "2"
   },
   {
+    "uuid": "c8076b17-ccc2-5f97-a149-c87a9418000f",
     "borderColor": "black",
     "colors": [
       "W"
@@ -1600,9 +1729,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "fc5f3a0c-271b-5763-a3e5-31ca11bf784e",
     "borderColor": "black",
     "colors": [
       "U"
@@ -1654,9 +1785,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Clue"
     ]
   },
   {
+    "uuid": "73030017-9483-5f73-b4be-0660e1a5c1eb",
     "borderColor": "black",
     "colors": [
       "U"
@@ -1698,9 +1833,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "25bd235a-f251-5da8-95de-afba45cc38da",
     "borderColor": "black",
     "colors": [
       "U"
@@ -1763,9 +1900,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "9f34964f-f02b-5ad0-bc15-f44d167cb67a",
     "borderColor": "black",
     "colors": [
       "B"
@@ -1795,9 +1934,11 @@
     "rarity": "mythic",
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "11df0150-4ded-54ea-bd5d-77bce572d502",
     "borderColor": "black",
     "colors": [
       "B"
@@ -1835,9 +1976,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Spirit"
+    ],
+    "toughness": "4",
+    "power": "5"
   },
   {
+    "uuid": "9079f8fd-1e9e-53da-8b9d-6832313dd265",
     "borderColor": "black",
     "colors": [
       "B"
@@ -1869,9 +2016,17 @@
     "rarity": "mythic",
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Ogre",
+      "Rogue",
+      "Detective"
+    ],
+    "toughness": "3",
+    "power": "4"
   },
   {
+    "uuid": "1b0d880e-fdfb-5905-9a74-7d6742fb1774",
     "borderColor": "black",
     "colors": [
       "R"
@@ -1911,9 +2066,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Rogue"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "7691ba3c-4844-54b2-8571-e73e4b6c7ee8",
     "borderColor": "black",
     "colors": [
       "R"
@@ -1942,9 +2104,11 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b0a74035-98d2-55f0-b5a8-5c4204aadb32",
     "borderColor": "black",
     "colors": [
       "R"
@@ -1988,9 +2152,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "f72327f3-9884-5390-b3d2-0bb5d8299449",
     "borderColor": "black",
     "colors": [
       "R"
@@ -2042,9 +2208,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "cd4c50f2-a945-5c43-8410-6151da7b8bea",
     "borderColor": "black",
     "colors": [
       "R"
@@ -2084,9 +2252,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "c3084caa-ba9d-5984-a79b-2dd9aece669a",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2129,9 +2299,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "f7155008-08c2-57cc-aeeb-8c60ffe6a84a",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2188,9 +2360,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Plant",
+      "Druid"
+    ],
+    "toughness": "5",
+    "power": "5"
   },
   {
+    "uuid": "388ac8d4-0add-529e-ae3e-7da222d478c0",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2230,9 +2409,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "16133d48-d867-56d2-b103-75c657260ef0",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2267,9 +2448,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "1",
+    "power": "1"
   },
   {
+    "uuid": "1ff3d49d-979d-5237-b2dd-28f4da08401a",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2323,9 +2511,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Dinosaur"
+    ],
+    "toughness": "6",
+    "power": "6"
   },
   {
+    "uuid": "be7910d3-5594-5ecd-b300-ab3917bf2ac6",
     "borderColor": "black",
     "colors": [
       "G",
@@ -2378,9 +2572,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Beast",
+      "Noble"
+    ],
+    "toughness": "2",
+    "power": "1"
   },
   {
+    "uuid": "d43c007b-ed48-5345-a141-ed45d68b4bb6",
     "borderColor": "black",
     "colors": [
       "B",
@@ -2423,9 +2624,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "d8155cfe-316d-58c1-a728-510d8b0b5cbc",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 1,
@@ -2465,9 +2668,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "53906ad8-855f-56ff-aee3-865b69a25575",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -2499,9 +2706,13 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "4c3fb2ad-f882-50ff-a955-73f81e21522e",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 6,
@@ -2543,9 +2754,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "3594daed-c644-5230-9138-d6407092e183",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -2607,9 +2820,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "d7068cbb-25ca-5cd0-ae7f-2788a710898e",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 2,
@@ -2667,9 +2884,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "aba80c2e-54e7-53df-af5f-74f47a494282",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 5,
@@ -2726,9 +2945,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "40ccc7b4-6dc5-5f4c-839a-ff2cbc821660",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -2754,9 +2975,11 @@
     "rarity": "mythic",
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "bd01e647-7d11-5440-9192-35aa97124486",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -2793,9 +3016,11 @@
     ],
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "109bba79-b3ec-5ff9-8641-26e47148d6c3",
     "borderColor": "black",
     "colors": [
       "G"
@@ -2848,9 +3073,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Dinosaur"
+    ],
+    "toughness": "6",
+    "power": "6"
   },
   {
+    "uuid": "b04b2cdb-9115-5ae0-9545-ad4d8c8a7819",
     "borderColor": "black",
     "colors": [
       "G",
@@ -2902,9 +3133,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Beast",
+      "Noble"
+    ],
+    "toughness": "2",
+    "power": "1"
   },
   {
+    "uuid": "62567c60-1e1a-5ec8-b4fc-93a8453e2796",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -2935,9 +3173,13 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "cc00fbf0-4b78-5ba7-bef9-f9e3aa2bb421",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -2998,9 +3240,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "3115f5e2-aa7b-5a03-9540-e8044a0c38f1",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -3036,9 +3282,11 @@
     ],
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "ec5277f0-1e92-58f1-90a8-131fac302520",
     "borderColor": "black",
     "colors": [
       "W"
@@ -3100,9 +3348,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "7cafe33b-979f-55a1-80eb-4858385a6b14",
     "borderColor": "black",
     "colors": [
       "W"
@@ -3142,9 +3392,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Cleric"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "82e69281-20b3-5b27-b2c0-1495e449522e",
     "borderColor": "black",
     "colors": [
       "W"
@@ -3196,9 +3453,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "4",
+    "power": "2"
   },
   {
+    "uuid": "56ef73df-6329-574c-89f6-c71833b30690",
     "borderColor": "black",
     "colors": [
       "W"
@@ -3241,9 +3505,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "8e837162-2843-536a-86e2-74d23007b1ee",
     "borderColor": "black",
     "colors": [
       "U"
@@ -3295,9 +3561,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Clue"
     ]
   },
   {
+    "uuid": "c3cfc938-9b15-5ca1-9361-e89523d310dd",
     "borderColor": "black",
     "colors": [
       "U"
@@ -3339,9 +3609,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "d37798bc-b707-50df-9101-c543bedc0060",
     "borderColor": "black",
     "colors": [
       "U"
@@ -3404,9 +3676,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "2edf98ba-c6ea-5860-86b7-f650bec76557",
     "borderColor": "black",
     "colors": [
       "B"
@@ -3436,9 +3710,11 @@
     "rarity": "mythic",
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "402daa86-3f2e-5628-aa16-e76b04ba9d01",
     "borderColor": "black",
     "colors": [
       "B"
@@ -3476,9 +3752,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Spirit"
+    ],
+    "toughness": "4",
+    "power": "5"
   },
   {
+    "uuid": "a1f3a6a7-78d5-5b45-890c-a144b2644cc0",
     "borderColor": "black",
     "colors": [
       "B"
@@ -3510,9 +3792,17 @@
     "rarity": "mythic",
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Ogre",
+      "Rogue",
+      "Detective"
+    ],
+    "toughness": "3",
+    "power": "4"
   },
   {
+    "uuid": "1b925c9d-4bf8-50d1-8858-6ddda3710521",
     "borderColor": "black",
     "colors": [
       "R"
@@ -3552,9 +3842,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Rogue"
+    ],
+    "toughness": "2",
+    "power": "2"
   },
   {
+    "uuid": "ad9a9ad4-a5ae-5656-a0e7-8805cc145719",
     "borderColor": "black",
     "colors": [
       "R"
@@ -3583,9 +3880,11 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "710280ef-b562-587c-bdeb-659d0e916455",
     "borderColor": "black",
     "colors": [
       "R"
@@ -3629,9 +3928,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b3544854-6769-5c74-aa07-4a7df696e259",
     "borderColor": "black",
     "colors": [
       "R"
@@ -3683,9 +3984,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "17b01af4-9ce9-5d36-9d54-a520261624ec",
     "borderColor": "black",
     "colors": [
       "R"
@@ -3725,9 +4028,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "b81f887f-4215-5d20-8f13-af2f6de239f6",
     "borderColor": "black",
     "colors": [
       "G"
@@ -3770,9 +4075,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "38d75be4-1864-5794-8867-c50119746f08",
     "borderColor": "black",
     "colors": [
       "G"
@@ -3829,9 +4136,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Plant",
+      "Druid"
+    ],
+    "toughness": "5",
+    "power": "5"
   },
   {
+    "uuid": "2a6ce767-3e3f-5917-b7f1-ec24cb2c4efe",
     "borderColor": "black",
     "colors": [
       "G"
@@ -3871,9 +4185,11 @@
     ],
     "types": [
       "Enchantment"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "817df7eb-fe55-52ca-8a40-bca55c2435c5",
     "borderColor": "black",
     "colors": [
       "G"
@@ -3908,9 +4224,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Human",
+      "Artificer"
+    ],
+    "toughness": "1",
+    "power": "1"
   },
   {
+    "uuid": "34140249-3c3f-5c18-99d6-c1f4f21632de",
     "borderColor": "black",
     "colors": [
       "G"
@@ -3964,9 +4287,15 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Dinosaur"
+    ],
+    "toughness": "6",
+    "power": "6"
   },
   {
+    "uuid": "3ec753c7-3c00-501e-9e68-0d438a377bf6",
     "borderColor": "black",
     "colors": [
       "G",
@@ -4019,9 +4348,16 @@
     ],
     "types": [
       "Creature"
-    ]
+    ],
+    "subtypes": [
+      "Beast",
+      "Noble"
+    ],
+    "toughness": "2",
+    "power": "1"
   },
   {
+    "uuid": "57bc0a37-1f46-5a43-9259-c8f2d804d171",
     "borderColor": "black",
     "colors": [
       "B",
@@ -4064,9 +4400,11 @@
     ],
     "types": [
       "Sorcery"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "6232a2a9-0d22-58d3-b80e-64ffc5d9319b",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 1,
@@ -4106,9 +4444,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "17bf0ea6-715f-5a2c-ab21-231e0d0fae77",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -4140,9 +4482,13 @@
     "rarity": "mythic",
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "b991f38f-86c3-5a89-a5f4-4f91b4c0dfa1",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 6,
@@ -4184,9 +4530,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "1aa0c4aa-017c-5d6d-b2a5-316e0f0cfc55",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 3,
@@ -4248,9 +4596,13 @@
     ],
     "types": [
       "Artifact"
+    ],
+    "subtypes": [
+      "Equipment"
     ]
   },
   {
+    "uuid": "eec50a2e-2e7c-529b-9c14-0f7c64b32c83",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 2,
@@ -4308,9 +4660,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "adc75fcb-2b7c-5fb3-a0eb-9253e52af69d",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 5,
@@ -4367,9 +4721,11 @@
     ],
     "types": [
       "Artifact"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "0d0b10ee-f9c8-5a50-ae58-138f8d18a32e",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -4395,9 +4751,11 @@
     "rarity": "mythic",
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   },
   {
+    "uuid": "61f2ac50-f6ba-51d9-b93b-76db551df577",
     "borderColor": "black",
     "colors": [],
     "convertedManaCost": 0,
@@ -4434,6 +4792,7 @@
     ],
     "types": [
       "Land"
-    ]
+    ],
+    "subtypes": []
   }
 ]
