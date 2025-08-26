@@ -36,7 +36,7 @@ def load_rules(path):
                 })
     return docs
 
-# -------- HELPER LOAD CARDS --------
+# -------- HELPER LOAD CARDS -------- #! removed loading cards as they will be fetch from an id
 def load_cards(path):
     """Load MTG card data from your JSON export."""
     if not os.path.exists(path):
@@ -115,10 +115,12 @@ def build_index():
     print("Loading rules...")
     rules = load_rules(RULES_FILE)
 
-    print("Loading cards...")
-    cards = load_cards(CARDS_FILE)  # add this
+    #! removed loading cards as they will be fetch from an id
+    # print("Loading cards...")
+    # cards = load_cards(CARDS_FILE)  # add this
 
-    all_docs = rules + cards  # merge datasets
+    # all_docs = rules + cards  # merge datasets #! removed loading cards as they will be fetch from an id
+    all_docs = rules  # merge datasets
 
     texts, metas, ids = [], [], []
 
