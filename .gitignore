@@ -2,3 +2,4 @@
 test.py
 AllPrintings.json
 *old-data
+*__pycache__
