@@ -9,10 +9,13 @@ from utils.index_utils import build_index
 from utils.model_utils import answer_with_subqueries
 from utils.config_utils import CARDS_FILE
 
+import time # just for simulating sending a response in 18 seconds
+
 # -------- INITIALIZATION --------
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
-build_index()
+
+# build_index() #todo commented out so it doesn't run every time the server runs
 
 @app.get('/cards')
 def cards():
@@ -32,13 +35,13 @@ def cards():
 @app.post('/ask')
 def ask():
 
-  #!TEST
+  # #!TEST without using the OPEN AI API
+  time.sleep(18) #! REMOVE while testing is over
   return {
-     "question": "question test",
-     "short_answer": "short answer test",
-     "full_explanation": "full explanation test",
-     "sources": "sources test",
-     "single_word_answer": "single word test",
+     "question": "QUESTION, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+     "short_answer": "SHORT ANSWER Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+     "full_explanation": "FULL EXPLANATION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+     "sources": "SOURCES Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   }
 
   # if the request is not JSON, return an error
@@ -51,7 +54,7 @@ def ask():
   if 'question' not in data:
     return {"error": "Missing input data: 'question' is required."}, 400
 
-  response = answer_with_subqueries(data["question"])
+  response = answer_with_subqueries(data)
         
   return response
 
