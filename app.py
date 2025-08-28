@@ -49,10 +49,10 @@ def ask():
   return response
 
 #!TEST ROUTE without using the OPEN AI API
-@app.post('/test-response')
-def ask():
+@app.post('/test')
+def test():
 
-  time.sleep(18) 
+  time.sleep(15) 
   return {
      "question": "QUESTION, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
      "short_answer": "SHORT ANSWER Lorem ipsum dolor sit amet, consectetur adipiscing elit",

@@ -1,7 +1,9 @@
 
 # MTG Judge AI
 
-AI-powered Magic: The Gathering rules and card Q&A API using Embeddings and RAC.
+AI-powered Magic: The Gathering rules and card Q&A API using Embeddings and RAC. It allows users to ask complex MTG rules questions, and receive AI-generated answers with explanations and sources.
+
+- Used alongside this [Client Repo](https://github.com/jorgeberrizbeitia/MTG-Judge-AI-client)
 
 # Technologies used
 
@@ -41,7 +43,7 @@ pip install -r requirements.txt
    ```bash
    python app.py
    ```
-4. Access the API via Postman or run the frontend.
+4. Access the API via Postman or run the [frontent](https://github.com/jorgeberrizbeitia/MTG-Judge-AI-client).
 
 ## Project Structure
 
@@ -51,9 +53,10 @@ pip install -r requirements.txt
 - `scripts/` - Executables for building index and formatting data
 - `original_code/` - Code from initial attempts and tests (initial benchmarks)
 
-## Extras
+## Extra Links
 
 - [Presentation](https://www.canva.com/design/DAGxWgk3XE4/3Pv1_2CPKRj1pU2cWt35lA/edit?utm_content=DAGxWgk3XE4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Client Repo](https://github.com/jorgeberrizbeitia/MTG-Judge-AI-client)
 
 ---
 Minimal, clear, and ready to use.
