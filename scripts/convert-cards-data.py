@@ -3,8 +3,6 @@ import json
 # Load card data
 with open("../old-data/AllPrintings.json", "r", encoding="utf-8") as f:
     cardData = json.load(f)
-# with open("../old-data/Standard.json", "r", encoding="utf-8") as f:
-#     cardData = json.load(f)
 
 allCards = []
 
@@ -50,6 +48,3 @@ print(f"Total cards in cleaned data: {len(output)}")
 # write to JSON
 with open("./clean-all-printings.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
-
-# with open("./clean-standard-cards.json", "w", encoding="utf-8") as f:
-#     json.dump(output, f, indent=2, ensure_ascii=False)

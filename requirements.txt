@@ -1,0 +1,10 @@
+# Flask: Web framework for building the API server
+flask
+# OpenAI: Access to OpenAI's GPT models
+openai
+# python-dotenv: Loads environment variables from .env files
+python-dotenv
+# chromadb: Vector database for embeddings and search
+chromadb
+# flask-cors: Enables Cross-Origin Resource Sharing for Flask
+flask-cors

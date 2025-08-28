@@ -5,7 +5,6 @@ import os
 import json
 
 # -------- UTILS --------
-from utils.index_utils import build_index
 from utils.model_utils import answer_with_subqueries
 from utils.config_utils import CARDS_FILE
 
@@ -35,15 +34,6 @@ def cards():
 @app.post('/ask')
 def ask():
 
-  # #!TEST without using the OPEN AI API
-  time.sleep(18) #! REMOVE while testing is over
-  return {
-     "question": "QUESTION, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-     "short_answer": "SHORT ANSWER Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-     "full_explanation": "FULL EXPLANATION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-     "sources": "SOURCES Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  }
-
   # if the request is not JSON, return an error
   if not request.is_json:
     return {"error": "Request must include a JSON in the body with the question parameter"}, 400
@@ -57,6 +47,18 @@ def ask():
   response = answer_with_subqueries(data)
         
   return response
+
+#!TEST ROUTE without using the OPEN AI API
+@app.post('/test-response')
+def ask():
+
+  time.sleep(18) 
+  return {
+     "question": "QUESTION, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+     "short_answer": "SHORT ANSWER Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+     "full_explanation": "FULL EXPLANATION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+     "sources": "SOURCES Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  }
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5005, debug=True)
