@@ -1,7 +1,7 @@
 import json
 
 # Load card data
-with open("../old-data/AllPrintings.json", "r", encoding="utf-8") as f:
+with open("../data/AllPrintings.json", "r", encoding="utf-8") as f:
     cardData = json.load(f)
 
 allCards = []

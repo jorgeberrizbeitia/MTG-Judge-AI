@@ -26,7 +26,7 @@ pip install -r requirements.txt
    ```
    OPENAI_API_KEY=your-key-here
    ```
-2. Download the complete MTG card data (AllPrintings) from [MTGJSON](https://mtgjson.com/downloads/all-files/) and save as `data/clean-all-printings.json`.
+2. Download the complete MTG card data (AllPrintings) from [MTGJSON](https://mtgjson.com/downloads/all-files/) and save as `data/AllPrintings.json`.
 3. Download the txt MTG comprehensive rules from the [Wizards official site](https://magic.wizards.com/en/rules) and save as `data/comprehensive-rules.txt`.
 
 ## Usage
