@@ -4,14 +4,14 @@ import json
 import os
 
 # -------- CONFIG --------
-from utils.config_utils import TOP_K, CHAT_MODEL, CHROMA_DB_DIR, EMBED_MODEL, CLIENT
+from utils.config_utils import TOP_K, CHAT_MODEL, CHROMA_DB_DIR, EMBED_MODEL, CLIENT, MAX_CONTENT_CHUNKS, MAX_SUBQUERIES
 from utils.config_utils import CARDS_FILE
 
 # -------- INITIALIZATION --------
 client = CLIENT
 
 # -------- HELPER SEARCH INDEX --------
-def search_index(query, top_k=TOP_K):
+def search_index(query):
     """Search ChromaDB for relevant rule chunks."""
     query = query.strip()
     if not query:
@@ -24,7 +24,7 @@ def search_index(query, top_k=TOP_K):
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
     collection = chroma_client.get_or_create_collection(name="mtg_rules")
 
-    results = collection.query(query_embeddings=[vec], n_results=top_k)
+    results = collection.query(query_embeddings=[vec], n_results=TOP_K)
 
     docs = []
     for i, doc in enumerate(results["documents"][0]):
@@ -35,11 +35,11 @@ def search_index(query, top_k=TOP_K):
     return docs
 
 # -------- HELPER GENERATE SUBQUERIES --------
-def generate_subqueries(query, n=10):
+def generate_subqueries(query):
     """Chain of Thought decomposition function. Use the LLM to break a user query into smaller sub-questions."""
     #client = OpenAI(api_key=OPENAI_API_KEY)
     prompt = f"""
-    Break down the following Magic: The Gathering rules question into {n} smaller, 
+    Break down the following Magic: The Gathering rules question into {MAX_SUBQUERIES} smaller, 
     more specific sub-questions that cover timing, abilities, rules interactions, 
     and possible edge cases. Return them as a numbered list.
 
@@ -97,7 +97,7 @@ def fetch_cards_info(selected_cards):
     return cards_info
 
 # ---------- ANSWER WITH SUBQUERIES ----------
-def answer_with_subqueries(data, max_context_chunks=20, max_subqueries=20):
+def answer_with_subqueries(data):
     """Break question into subqueries, search index for each, and generate final structured ruling."""
 
     user_prompt = data.get("question", "").strip()
@@ -107,12 +107,12 @@ def answer_with_subqueries(data, max_context_chunks=20, max_subqueries=20):
         cards_info = fetch_cards_info(selected_cards)
 
     # Step 1: Generate subqueries
-    subqueries = generate_subqueries(user_prompt, n=max_subqueries)
+    subqueries = generate_subqueries(user_prompt)
 
     # Step 2: Collect retrieval results
     all_results = []
     for sq in subqueries:
-        results = search_index(sq, top_k=8)
+        results = search_index(sq)
         for r in results:
             all_results.append({
                 "subquery": sq,
@@ -121,8 +121,8 @@ def answer_with_subqueries(data, max_context_chunks=20, max_subqueries=20):
             })
 
     # Prune context if too large (keep only top N chunks by length relevance)
-    if len(all_results) > max_context_chunks:
-        all_results = all_results[:max_context_chunks]
+    if len(all_results) > MAX_CONTENT_CHUNKS:
+        all_results = all_results[:MAX_CONTENT_CHUNKS]
 
     context = "\n\n".join(
         f"Subquery: {r['subquery']}\n- Source: {r['source']}\n- Text: {r['text']}"
@@ -229,12 +229,12 @@ def answer_with_subqueries(data, max_context_chunks=20, max_subqueries=20):
 
     # ---------- DENIED CASE ----------
     # Generate refined subqueries based on judge2 feedback
-    new_subqueries = generate_subqueries(judge2_response, n=max_subqueries)
+    new_subqueries = generate_subqueries(judge2_response)
     print("2nd judge conflict")
 
     refined_results = []
     for sq in new_subqueries:
-        results = search_index(sq, top_k=5)
+        results = search_index(sq)
         for r in results:
             refined_results.append({
                 "subquery": sq,
@@ -243,8 +243,8 @@ def answer_with_subqueries(data, max_context_chunks=20, max_subqueries=20):
             })
 
     # Keep within limits
-    if len(refined_results) > max_context_chunks:
-        refined_results = refined_results[:max_context_chunks]
+    if len(refined_results) > MAX_CONTENT_CHUNKS:
+        refined_results = refined_results[:MAX_CONTENT_CHUNKS]
 
     refined_context = "\n\n".join(
         f"Subquery: {r['subquery']}\n- Source: {r['source']}\n- Text: {r['text']}"

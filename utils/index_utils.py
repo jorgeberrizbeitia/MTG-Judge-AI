@@ -5,7 +5,7 @@ import json
 import chromadb
 
 # -------- CONFIG --------
-from utils.config_utils import CHUNK_SIZE, CHROMA_DB_DIR, RULES_FILE, CARDS_FILE, EMBED_MODEL, CLIENT
+from utils.config_utils import CHUNK_SIZE, CHROMA_DB_DIR, RULES_FILE, CARDS_FILE, EMBED_MODEL, CLIENT, CHUNK_OVERLAP, INDEX_BATCH_SIZE
 
 # -------- INITIALIZATION --------
 os.makedirs(CHROMA_DB_DIR, exist_ok=True) # to create folder if it doesn't exist
@@ -86,22 +86,44 @@ def load_cards(path):
     return docs
 
 # -------- HELPER CHUNK TEXT --------
-def chunk_text(text, chunk_size=CHUNK_SIZE):
-    """Split text into smaller chunks so embeddings don't get too big."""
+def chunk_text(text):
+    """
+    Split text into overlapping chunks for embedding. text (str)
+    
+    Args:
+        text (str): The input text to chunk.
+        chunk_size (int): Approximate max words per chunk.
+        overlap (int): Words to overlap between chunks.
+
+    Returns:
+        list[str]: A list of text chunks.
+    """
+
+    # Split by sentence endings while keeping coherence
     sentences = re.split(r'(?<=[.!?]) +', text)
+
     chunks = []
     current = []
     length = 0
 
     for s in sentences:
-        tokens = len(s.split())
-        if length + tokens > chunk_size:
+        tokens = s.split()
+        token_len = len(tokens)
+
+        # If adding this sentence exceeds chunk size
+        if length + token_len > CHUNK_SIZE:
+            # Save current chunk
             chunks.append(" ".join(current))
-            current = [s]
-            length = tokens
+
+            # Start new chunk with overlap from the previous
+            overlap_tokens = current[-CHUNK_OVERLAP:] if CHUNK_OVERLAP > 0 else []
+            current = overlap_tokens + tokens
+            length = len(current)
         else:
-            current.append(s)
-            length += tokens
+            current.extend(tokens)
+            length += token_len
+
+    # Add last chunk if non-empty
     if current:
         chunks.append(" ".join(current))
 
@@ -109,26 +131,24 @@ def chunk_text(text, chunk_size=CHUNK_SIZE):
 
 # -------- HELPER BUILD INDEX --------
 def build_index():
-    """Create ChromaDB collection from rules + card data."""
-    # client = OpenAI(api_key=OPENAI_API_KEY)
-
+    """Create ChromaDB collection from rules with batching and optimized metadata."""
     print("Loading rules...")
     rules = load_rules(RULES_FILE)
 
-    #! removed loading cards as they will be fetch from an id
-    # print("Loading cards...")
-    # cards = load_cards(CARDS_FILE)  # add this
-
-    # all_docs = rules + cards  # merge datasets #! removed loading cards as they will be fetch from an id
-    all_docs = rules  # merge datasets
+    all_docs = rules  # cards now handled separately
 
     texts, metas, ids = [], [], []
 
+    print("Chunking rules...")
     for d in all_docs:
         chunks = chunk_text(d["text"])
         for i, ch in enumerate(chunks):
             texts.append(ch)
-            metas.append(d)
+            metas.append({
+                "id": d["id"],
+                "rule_id": d.get("rule_id", None),
+                "source": d.get("source", "Comprehensive Rules")
+            })
             ids.append(f"{d['id']}_{i}")
 
     if not texts:
@@ -136,29 +156,38 @@ def build_index():
 
     print(f"Total chunks: {len(texts)}")
 
-    # Create embeddings
-    embeddings = client.embeddings.create(model=EMBED_MODEL, input=texts)
-    vecs = [d.embedding for d in embeddings.data]
-
     # Initialize Chroma client
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
 
-    # Drop old collection (clean rebuild)
+    # Drop old collection (safe)
     try:
         chroma_client.delete_collection("mtg_data")
-    except:
-        pass
+        print("Old collection deleted.")
+    except Exception:
+        print("No old collection to delete.")
 
     collection = chroma_client.get_or_create_collection(name="mtg_data")
 
-    # Add to Chroma
-    collection.add(
-        ids=ids,
-        embeddings=vecs,
-        documents=texts,
-        metadatas=metas
-    )
+    # Batch embeddings
+    print("Creating embeddings in batches...")
+    for i in range(0, len(texts), INDEX_BATCH_SIZE):
+        batch_texts = texts[i:i + INDEX_BATCH_SIZE]
+        batch_ids = ids[i:i + INDEX_BATCH_SIZE]
+        batch_metas = metas[i:i + INDEX_BATCH_SIZE]
+
+        embeddings = client.embeddings.create(
+            model=EMBED_MODEL,
+            input=batch_texts
+        )
+        vecs = [d.embedding for d in embeddings.data]
+
+        collection.add(
+            ids=batch_ids,
+            embeddings=vecs,
+            documents=batch_texts,
+            metadatas=batch_metas
+        )
+
+        print(f"Indexed {i + len(batch_texts)}/{len(texts)} chunks")
 
     print("Index built and saved with ChromaDB!")
-
-
