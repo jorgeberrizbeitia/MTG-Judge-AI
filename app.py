@@ -5,7 +5,7 @@ import os
 import json
 
 # -------- UTILS --------
-from utils.model_utils import answer_with_subqueries
+from utils.model_utils import answer_with_subqueries, fetch_cards_info
 from utils.config_utils import CARDS_FILE
 
 import time # just for simulating sending a response in 18 seconds
@@ -43,8 +43,15 @@ def ask():
 
   if 'question' not in data:
     return {"error": "Missing input data: 'question' is required."}, 400
+  
+  user_prompt = data.get("question", "").strip()
+  selected_cards = data.get("cards", [])  # list of card names or ids
 
-  response = answer_with_subqueries(data)
+  if len(selected_cards) != 0:
+    cards_info = fetch_cards_info(selected_cards)
+
+
+  response = answer_with_subqueries(user_prompt, cards_info)
         
   return response
 
