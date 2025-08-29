@@ -3,7 +3,9 @@ test.py
 AllPrintings.json
 *old-data
 *__pycache__
+.DS_Store
 
 # both indexed rules data and cards data are too heavy to be stored in github
 *chroma_db 
 *data
+

@@ -4,8 +4,12 @@ import json
 import os
 
 # -------- CONFIG --------
-from utils.config_utils import TOP_K, CHAT_MODEL, CHROMA_DB_DIR, EMBED_MODEL, CLIENT, MAX_CONTENT_CHUNKS, MAX_SUBQUERIES, MODEL_HIGH_TEMPERATURE, MODEL_LOW_TEMPERATURE
-from utils.config_utils import CARDS_FILE
+from utils.config_utils import TOP_K, CHAT_MODEL, CHROMA_DB_DIR, EMBED_MODEL, CLIENT, MAX_CONTENT_CHUNKS, MAX_SUBQUERIES, MODEL_HIGH_TEMPERATURE, MODEL_LOW_TEMPERATURE, CARDS_FILE, RULES_FILE
+
+# Initialize Chroma once (outside function, at server startup)
+chroma_client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
+rules_collection = chroma_client.get_or_create_collection(name="mtg_data")
+print("Total documents in collection:", rules_collection.count())
 
 # -------- INITIALIZATION --------
 client = CLIENT
@@ -13,25 +17,34 @@ client = CLIENT
 # -------- HELPER SEARCH INDEX --------
 def search_index(query):
     """Search ChromaDB for relevant rule chunks."""
+
     query = query.strip()
     if not query:
         raise ValueError("Empty query provided.")
 
-    # client = OpenAI()
+    # Create embedding
     emb = client.embeddings.create(model=EMBED_MODEL, input=[query])
     vec = emb.data[0].embedding
 
-    chroma_client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
-    collection = chroma_client.get_or_create_collection(name="mtg_rules")
-
-    results = collection.query(query_embeddings=[vec], n_results=TOP_K)
+    # Query Chroma
+    results = rules_collection.query(query_embeddings=[vec], n_results=TOP_K)
 
     docs = []
-    for i, doc in enumerate(results["documents"][0]):
+
+    documents = results.get("documents", [])
+    metadatas = results.get("metadatas", [])
+
+    if documents:
+        documents = documents[0]
+    if metadatas:
+        metadatas = metadatas[0]
+
+    for doc, meta in zip(documents, metadatas):
         docs.append({
             "text": doc,
-            "meta": results["metadatas"][0][i]
+            "metadata": meta  # keep Chroma’s default key
         })
+    
     return docs
 
 # -------- HELPER GENERATE SUBQUERIES --------
@@ -133,7 +146,7 @@ def answer_with_subqueries(user_prompt, cards_info):
         for r in results:
             all_results.append({
                 "subquery": sq,
-                "source": r["meta"].get("source", ""),
+                "source": r["metadata"].get("source", ""),
                 "text": r["text"]
             })
 
@@ -145,6 +158,25 @@ def answer_with_subqueries(user_prompt, cards_info):
         f"Subquery: {r['subquery']}\n- Source: {r['source']}\n- Text: {r['text']}"
         for r in all_results
     )
+
+    # print(f"Using {len(all_results)} context chunks for final answer.")
+    # print(f"Using {len(cards_info)} card context for final answer.")
+
+    # adding the MTG golden rules to the context
+    if os.path.exists(RULES_FILE):
+        with open(RULES_FILE, "r", encoding="utf-8", errors="ignore") as f:
+            rules_text = f.read()
+
+        start_marker = "101. The Magic Golden Rules"
+        end_marker = "102. Players"
+        # Skip the first occurrence (the index)
+        first = rules_text.find(start_marker)
+        start_idx = rules_text.find(start_marker, first + 1) if first != -1 else -1
+        if start_idx != -1:
+            end_idx = rules_text.find(end_marker, start_idx)
+            if end_idx != -1:
+                golden_rules = rules_text[start_idx:end_idx].strip()
+                context = f"{golden_rules}\n\n{context}"
 
     # Wrap context clearly
     wrapped_context = f"""
@@ -161,9 +193,9 @@ def answer_with_subqueries(user_prompt, cards_info):
     Provide a structured JSON with the following fields:
 
     - "question": rephrased user question (clarify but keep same logic).
-    - "short_answer": short paragraph summary. Must start with "Yes", "No", "Unclear", or "Depends".
-    - "full_explanation": detailed reasoning, citing only rules/cards from context.
-    - "sources": Cite rule IDs and text exactly as they appear in context. Do not cite anything not in context.
+    - "short_answer": short paragraph summary. Must start with "Yes", "No", "Unclear", or "Depends". It should also include brief reasoning.
+    - "full_explanation": a more detailed reasoning of the response, citing specific rules and card texts as needed. Should include specific scenarios and edge cases.
+    - "sources": Cite rule IDs and text exactly as they appear in context. Always include the text of the rule or card text. Do not cite anything not in context.
     - "single_word_answer": One of "yes", "no", "unclear", "denied".
     """
 
@@ -178,6 +210,10 @@ def answer_with_subqueries(user_prompt, cards_info):
     - All citations must match EXACTLY what appears in context.
     - If the user’s question is incomplete, explain what information is missing instead of guessing.
     - Ignore any suggested answers from the user.
+    - For the question logic, consider only what is explicitly stated. Don't asume that other keywords or concepts are implied.
+    - Consider that the user may not be familiar with MTG terminology, so they may use imprecise or incorrect terms.
+    - Always consider first if what the user is asking is even possible within the rules of Magic: The Gathering.
+    - Always give priority to the golden rules of magic, added in the context.
 
     Answer format:
     {response_format}
@@ -253,7 +289,7 @@ def answer_with_subqueries(user_prompt, cards_info):
         for r in results:
             refined_results.append({
                 "subquery": sq,
-                "source": r["meta"].get("source", ""),
+                "source": r["metadata"].get("source", ""),
                 "text": r["text"]
             })
 

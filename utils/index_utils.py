@@ -5,7 +5,7 @@ import json
 import chromadb
 
 # -------- CONFIG --------
-from utils.config_utils import CHUNK_SIZE, CHROMA_DB_DIR, RULES_FILE, CARDS_FILE, EMBED_MODEL, CLIENT, CHUNK_OVERLAP, INDEX_BATCH_SIZE
+from utils.config_utils import CHUNK_SIZE, CHROMA_DB_DIR, RULES_FILE, EMBED_MODEL, CLIENT, CHUNK_OVERLAP, INDEX_BATCH_SIZE
 
 # -------- INITIALIZATION --------
 os.makedirs(CHROMA_DB_DIR, exist_ok=True) # to create folder if it doesn't exist
@@ -13,76 +13,27 @@ client = CLIENT
 
 # -------- HELPER LOAD RULES --------
 def load_rules(path):
-    """Load the MTG comprehensive rules from a text file."""
+    """Load the MTG comprehensive rules from a text file into rule entries."""
     if not os.path.exists(path):
         print(f"Rules file not found at {path}")
         return []
 
-    docs = []
     with open(path, "r", encoding="utf-8", errors="ignore") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            # Rules usually like: 603.1. Some text
-            match = re.match(r"^(\d{1,3}(?:\.\d+)+)\s+(.*)$", line)
-            if match:
-                rule_id, body = match.groups()
-                docs.append({
-                    "id": f"CR:{rule_id}",
-                    "text": f"{rule_id} {body}",
-                    "rule_id": rule_id,
-                    "source": "Comprehensive Rules"
-                })
-    return docs
+        text = f.read()
 
-# -------- HELPER LOAD CARDS -------- #! removed loading cards as they will be fetch from an id
-def load_cards(path):
-    """Load MTG card data from your JSON export."""
-    if not os.path.exists(path):
-        print(f"Card file not found at {path}")
-        return []
-
-    with open(path, "r", encoding="utf-8") as f:
-        cards = json.load(f)
-
+    # Matches "603.1a Rule text possibly spanning multiple lines"
+    pattern = re.compile(r"^(\d{1,3}(?:\.\d+)*[a-z]?)\s+(.*?)(?=\n\d{1,3}(?:\.\d+)*[a-z]?\s|\Z)", re.S | re.M)
+    
     docs = []
-    for c in cards:
-        # Skip cards without names or text
-        if "name" not in c or not c.get("originalText"):
-            continue
-
-        # Construct a searchable text block for embedding
-        text_parts = [
-            f"Name: {c['name']}",
-            f"Mana Cost: {c.get('manaCost', '')}",
-            f"Types: {' '.join(c.get('types', []))}",
-            f"Subtypes: {' '.join(c.get('subtypes', []))}",
-            f"Abilities/Keywords: {', '.join(c.get('keywords', []))}",
-            f"Text: {c['originalText']}"
-        ]
-
-        # Add rulings (big chunk but useful)
-        rulings = c.get("rulings", [])
-        if rulings:
-            rulings_text = " | ".join(r["text"] for r in rulings if "text" in r)
-            text_parts.append(f"Rulings: {rulings_text}")
-
-        full_text = "\n".join(text_parts)
-
+    for match in pattern.finditer(text):
+        rule_id, body = match.groups()
+        body = body.strip().replace("\n", " ")
         docs.append({
-            "id": f"CARD:{c['uuid']}",   # use UUID for uniqueness
-            "text": full_text,
-            "source": "Card Database",
-            "card_name": c["name"],
-            "manaCost": c.get("manaCost", ""),
-            "types": ", ".join(c.get("types", [])),       # FIXED: stringify list
-            "subtypes": ", ".join(c.get("subtypes", [])), # FIXED: stringify list
-            "keywords": ", ".join(c.get("keywords", [])), # FIXED: stringify list
-            "rarity": c.get("rarity", "")
+            "id": f"CR:{rule_id}",
+            "text": f"{rule_id} {body}",
+            "rule_id": rule_id,
+            "source": "Comprehensive Rules"
         })
-
-    print(f"Loaded {len(docs)} cards from {path}")
     return docs
 
 # -------- HELPER CHUNK TEXT --------
@@ -133,7 +84,9 @@ def chunk_text(text):
 def build_index():
     """Create ChromaDB collection from rules with batching and optimized metadata."""
     print("Loading rules...")
+    
     rules = load_rules(RULES_FILE)
+    print(f"Loaded {len(rules)} rules")
 
     all_docs = rules  # cards now handled separately
 
