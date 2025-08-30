@@ -56,6 +56,8 @@ def generate_subqueries(query):
     more specific sub-questions that cover timing, abilities, rules interactions, 
     and possible edge cases. Return them as a numbered list.
 
+    For your sub-questions, consider some MTG key concepts that are not necessarily mentioned in the query like the stack, priority, turn structure, summoning sickness, triggered abilities, state-based actions, combat phases, protection, etc.
+
     Original Question: {query}
     """
     resp = client.chat.completions.create(

@@ -47,9 +47,9 @@ def ask():
   user_prompt = data.get("question", "").strip()
   selected_cards = data.get("cards", [])  # list of card names or ids
 
+  cards_info = []
   if len(selected_cards) != 0:
     cards_info = fetch_cards_info(selected_cards)
-
 
   response = answer_with_subqueries(user_prompt, cards_info)
         
